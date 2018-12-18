@@ -1,0 +1,657 @@
+09:13:55.889 INFO  twigkit.TwigKitApplication -  
+09:13:55.911 INFO  twigkit.TwigKitApplication -                                                              
+09:13:55.912 INFO  twigkit.TwigKitApplication -  ████╗ █████╗ █████╗   █████╗██████╗██╗ ██╗█████╗ ██╗ ████╗  
+09:13:55.912 INFO  twigkit.TwigKitApplication - ██╔═██╗██╔═██╗██╔═██╗  ██╔══╝╚═██╔═╝██║ ██║██╔═██╗██║██╔═██╗ 
+09:13:55.913 INFO  twigkit.TwigKitApplication - ██████║█████╔╝█████╔╝  █████╗  ██║  ██║ ██║██║ ██║██║██║ ██║ 
+09:13:55.913 INFO  twigkit.TwigKitApplication - ██╔═██║██╔══╝ ██╔══╝   ╚══██║  ██║  ██║ ██║██║ ██║██║██║ ██║ 
+09:13:55.913 INFO  twigkit.TwigKitApplication - ██║ ██║██║    ██║      █████║  ██║  ╚████╔╝█████╔╝██║╚████╔╝ 
+09:13:55.913 INFO  twigkit.TwigKitApplication - ╚═╝ ╚═╝╚═╝    ╚═╝      ╚════╝  ╚═╝   ╚═══╝ ╚════╝ ╚═╝ ╚═══╝  
+09:13:55.914 INFO  twigkit.TwigKitApplication -                                                              
+09:13:55.914 INFO  twigkit.TwigKitApplication -                     Lovingly crafted in 
+09:13:55.914 INFO  twigkit.TwigKitApplication -                          Cambridge 
+09:13:55.914 INFO  twigkit.TwigKitApplication -  
+09:13:55.915 INFO  twigkit.TwigKitApplication -  
+09:13:55.919 INFO  twigkit.TwigKitApplication -      App Studio is starting in DEVELOPMENT mode... 
+09:13:55.921 INFO  twigkit.TwigKitApplication -  
+09:13:55.921 INFO  twigkit.TwigKitApplication -  
+09:13:55.921 INFO  twigkit.TwigKitApplication - Built with Appkit version 4.1.1 
+09:13:55.922 INFO  twigkit.TwigKitApplication -  
+09:13:56.072 INFO  twigkit.fig.visitor.ConfigLogger - APP 
+09:13:56.073 INFO  twigkit.fig.visitor.ConfigLogger -   |-- markup = false 
+09:13:56.073 INFO  twigkit.fig.visitor.ConfigLogger -   |-- initialised = true 
+09:13:56.074 INFO  twigkit.fig.visitor.ConfigLogger - CORS 
+09:13:56.074 INFO  twigkit.fig.visitor.ConfigLogger -   |-- cors.supportedMethods = GET, POST, DELETE, HEAD 
+09:13:56.075 INFO  twigkit.fig.visitor.ConfigLogger -   |-- cors.allowOrigin = * 
+09:13:56.075 INFO  twigkit.fig.visitor.ConfigLogger - TWIGKIT 
+09:13:56.075 INFO  twigkit.fig.visitor.ConfigLogger -   |-- ui.trim-white-space = false 
+09:13:56.076 INFO  twigkit.fig.visitor.ConfigLogger -   |-- license-file = /twigkit.lic 
+09:13:56.076 INFO  twigkit.fig.visitor.ConfigLogger - ACTIVITY 
+09:13:56.077 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.077 INFO  twigkit.fig.visitor.ConfigLogger -   +-- TRACKING 
+09:13:56.077 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.077 INFO  twigkit.fig.visitor.ConfigLogger -         +-- TRACKER 
+09:13:56.078 INFO  twigkit.fig.visitor.ConfigLogger -               |-- events = click,request,login,annotation 
+09:13:56.078 INFO  twigkit.fig.visitor.ConfigLogger - MESSAGE 
+09:13:56.078 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.079 INFO  twigkit.fig.visitor.ConfigLogger -   +-- SERVICE 
+09:13:56.079 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.079 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FUSION 
+09:13:56.079 INFO  twigkit.fig.visitor.ConfigLogger -               |-- query-profile = teconnect 
+09:13:56.080 INFO  twigkit.fig.visitor.ConfigLogger - PLATFORMS 
+09:13:56.080 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.080 INFO  twigkit.fig.visitor.ConfigLogger -   +-- FUSION 
+09:13:56.081 INFO  twigkit.fig.visitor.ConfigLogger -         |-- highlight = true 
+09:13:56.081 INFO  twigkit.fig.visitor.ConfigLogger -         |-- backwardsCompatible = true 
+09:13:56.081 INFO  twigkit.fig.visitor.ConfigLogger -         |-- name = twigkit.search.fusion.Fusion 
+09:13:56.081 INFO  twigkit.fig.visitor.ConfigLogger -         |-- resultIDField = id 
+09:13:56.082 INFO  twigkit.fig.visitor.ConfigLogger -         |-- defaultQuery = *:* 
+09:13:56.082 INFO  twigkit.fig.visitor.ConfigLogger -         |-- timeOut = 30000 
+09:13:56.082 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.082 INFO  twigkit.fig.visitor.ConfigLogger -         +-- DATA 
+09:13:56.083 INFO  twigkit.fig.visitor.ConfigLogger -               |-- highlight = true 
+09:13:56.083 INFO  twigkit.fig.visitor.ConfigLogger -               |-- backwardsCompatible = true 
+09:13:56.083 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.search.fusion.Fusion 
+09:13:56.083 INFO  twigkit.fig.visitor.ConfigLogger -               |-- resultIDField = id 
+09:13:56.084 INFO  twigkit.fig.visitor.ConfigLogger -               |-- defaultQuery = *:* 
+09:13:56.084 INFO  twigkit.fig.visitor.ConfigLogger -               |-- timeOut = 30000 
+09:13:56.084 INFO  twigkit.fig.visitor.ConfigLogger -               |-- defaultFacets = marketingBrandName_s,partTypeName_s,popc_s,tooling_s,Product_Type_s,elvComplianceCode_s,elvRohsComplianceCode_s 
+09:13:56.084 INFO  twigkit.fig.visitor.ConfigLogger -               |-- fusion-app = teconnect 
+09:13:56.085 INFO  twigkit.fig.visitor.ConfigLogger -               |-- query-profile = teconnect 
+09:13:56.085 INFO  twigkit.fig.visitor.ConfigLogger -               |-- application-title = TE-Connect 
+09:13:56.085 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.086 INFO  twigkit.fig.visitor.ConfigLogger -         +-- PEOPLE 
+09:13:56.086 INFO  twigkit.fig.visitor.ConfigLogger -               |-- highlight = true 
+09:13:56.086 INFO  twigkit.fig.visitor.ConfigLogger -               |-- backwardsCompatible = true 
+09:13:56.087 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.search.fusion.Fusion 
+09:13:56.087 INFO  twigkit.fig.visitor.ConfigLogger -               |-- resultIDField = id 
+09:13:56.087 INFO  twigkit.fig.visitor.ConfigLogger -               |-- defaultQuery = *:* 
+09:13:56.087 INFO  twigkit.fig.visitor.ConfigLogger -               |-- timeOut = 30000 
+09:13:56.088 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.088 INFO  twigkit.fig.visitor.ConfigLogger -   +-- SOLR 
+09:13:56.088 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.088 INFO  twigkit.fig.visitor.ConfigLogger -         +-- DATA 
+09:13:56.088 INFO  twigkit.fig.visitor.ConfigLogger -               |-- host = YOUR_HOST 
+09:13:56.088 INFO  twigkit.fig.visitor.ConfigLogger -               |-- requestHandler = YOUR_REQUEST_HANDLER 
+09:13:56.088 INFO  twigkit.fig.visitor.ConfigLogger -               |-- collection = YOUR_COLLECTION 
+09:13:56.089 INFO  twigkit.fig.visitor.ConfigLogger -               |-- port = 8983 
+09:13:56.089 INFO  twigkit.fig.visitor.ConfigLogger - PROCESSORS 
+09:13:56.089 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.089 INFO  twigkit.fig.visitor.ConfigLogger -   +-- RESPONSE 
+09:13:56.090 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.090 INFO  twigkit.fig.visitor.ConfigLogger -         +-- DATE-FORMAT 
+09:13:56.090 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.client.processor.response.DateFormatProcessor 
+09:13:56.091 INFO  twigkit.fig.visitor.ConfigLogger -               |-- fields = Date 
+09:13:56.092 INFO  twigkit.fig.visitor.ConfigLogger -               |-- values = display 
+09:13:56.093 INFO  twigkit.fig.visitor.ConfigLogger - SECURITY 
+09:13:56.093 INFO  twigkit.fig.visitor.ConfigLogger -   |-- password = fus10ns33d 
+09:13:56.094 INFO  twigkit.fig.visitor.ConfigLogger -   |-- type = spring_security 
+09:13:56.094 INFO  twigkit.fig.visitor.ConfigLogger -   |-- webservice-enabled = true 
+09:13:56.094 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.095 INFO  twigkit.fig.visitor.ConfigLogger -   +-- FUSION 
+09:13:56.095 INFO  twigkit.fig.visitor.ConfigLogger -         |-- password = fus10ns33d 
+09:13:56.095 INFO  twigkit.fig.visitor.ConfigLogger -         |-- type = spring_security 
+09:13:56.095 INFO  twigkit.fig.visitor.ConfigLogger -         |-- webservice-enabled = true 
+09:13:56.095 INFO  twigkit.fig.visitor.ConfigLogger -         |-- session-timeout = 10 
+09:13:56.096 INFO  twigkit.fig.visitor.ConfigLogger -         |-- realm = native 
+09:13:56.096 INFO  twigkit.fig.visitor.ConfigLogger - SERVICES 
+09:13:56.096 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.098 INFO  twigkit.fig.visitor.ConfigLogger -   +-- API 
+09:13:56.098 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.098 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FUSION 
+09:13:56.098 INFO  twigkit.fig.visitor.ConfigLogger -               |-- host = localhost 
+09:13:56.099 INFO  twigkit.fig.visitor.ConfigLogger -               |-- password = Enc(sIy9ZOtprFpV8VWEAFL9fQ==) 
+09:13:56.099 INFO  twigkit.fig.visitor.ConfigLogger -               |-- impersonate = true 
+09:13:56.100 INFO  twigkit.fig.visitor.ConfigLogger -               |-- userName 
+09:13:56.100 INFO  twigkit.fig.visitor.ConfigLogger -               |-- port = 8764 
+09:13:56.100 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.100 INFO  twigkit.fig.visitor.ConfigLogger -   +-- CONTENT 
+09:13:56.100 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.100 INFO  twigkit.fig.visitor.ConfigLogger -         +-- CONFIG 
+09:13:56.100 INFO  twigkit.fig.visitor.ConfigLogger -               |-- base = config 
+09:13:56.101 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.101 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FILE 
+09:13:56.101 INFO  twigkit.fig.visitor.ConfigLogger -               |-- base = app 
+09:13:56.101 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.101 INFO  twigkit.fig.visitor.ConfigLogger -   +-- PUBLISH 
+09:13:56.102 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.102 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FUSION 
+09:13:56.102 INFO  twigkit.fig.visitor.ConfigLogger -               |-- maven-war-file = app-studio 
+09:13:56.103 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:13:56.103 INFO  twigkit.fig.visitor.ConfigLogger -   +-- SUGGESTIONS 
+09:13:56.103 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.103 INFO  twigkit.fig.visitor.ConfigLogger -         +-- STATIC 
+09:13:56.103 INFO  twigkit.fig.visitor.ConfigLogger -               |-- numberOfSuggestions 
+09:13:56.104 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name 
+09:13:56.105 INFO  twigkit.fig.visitor.ConfigLogger -               |-- host 
+09:13:56.105 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:13:56.105 INFO  twigkit.fig.visitor.ConfigLogger -         +-- TERMS 
+09:13:56.106 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.search.solr.suggestions.SolrQueryTermsService 
+09:13:56.106 INFO  twigkit.fig.visitor.ConfigLogger -               |-- term-fields = title 
+09:13:56.106 INFO  twigkit.fig.visitor.ConfigLogger -               |-- source = platforms.fusion 
+09:13:56.107 INFO  twigkit.fig.visitor.ConfigLogger -               |-- title 
+09:13:56.114 INFO  twigkit.InitializerModule - Binding application-wide event bus 
+09:13:56.116 INFO  t.license.AbstractLicenseManager - Initialising license expiry check monitor 
+09:13:56.118 INFO  twigkit.license.PLM - Searching classpath for license file with name /twigkit.lic 
+09:13:56.118 INFO  twigkit.license.PLM - Looking for license file /Users/brianland/twigkit.lic in user's home directory 
+09:13:56.121 INFO  twigkit.license.PLM - Using license file /Users/brianland/twigkit.lic 
+09:13:56.154 INFO  twigkit.service.ServiceLoaderModule - Loading and binding TwigKit Services... 
+09:13:56.184 DEBUG t.ui.jsp.service.RSSSearchService - Supported feed types: rss_0.91U, rss_1.0, rss_2.0, rss_0.93, rss_0.92, rss_0.94, rss_0.91N, rss_0.9, atom_0.3, atom_1.0 
+09:13:56.185 INFO  twigkit.service.ServiceLoaderModule - > twigkit.ui.jsp.service.RSSSearchService 
+09:13:56.188 INFO  twigkit.service.ServiceLoaderModule - > twigkit.service.StaticQuerySuggestionService 
+09:13:56.189 INFO  twigkit.service.ServiceLoaderModule - > twigkit.service.FieldSearchQuerySuggestionService 
+09:13:56.190 INFO  twigkit.service.ServiceLoaderModule - > twigkit.service.FacetSearchQuerySuggestionService 
+09:13:56.191 INFO  twigkit.service.ServiceLoaderModule - Done loading and binding TwigKit Services! 
+09:13:56.191 INFO  twigkit.service.ServiceLoaderModule - Binding TwigKit Service configurations... 
+09:13:56.192 INFO  twigkit.service.ServiceLoaderModule - Done binding TwigKit Platform configurations! 
+09:13:56.198 INFO  t.conf.ConfigurationProviderModule - Binding TwigKit Platform configurations... 
+09:13:56.216 INFO  t.conf.ConfigurationProviderModule - Done binding TwigKit Platform configurations! 
+09:13:56.218 INFO  twigkit.Start - Automatically loading TwigKitModules... 
+09:13:56.231 INFO  twigkit.Start - TwigKitModule Start-up order: 
+09:13:56.232 INFO  twigkit.Start - 1. AppModule (HIGHEST) 
+09:13:56.232 INFO  twigkit.Start - 2. LoggerModule (HIGHEST) 
+09:13:56.233 INFO  twigkit.Start - 3. ActivityTrackerModule (HIGHEST) 
+09:13:56.233 INFO  twigkit.Start - 4. ActivityModule (HIGHEST) 
+09:13:56.233 INFO  twigkit.Start - 5. FusionSessionModule (HIGH) 
+09:13:56.234 INFO  twigkit.Start - 6. SpringSecurityModule (HIGH) 
+09:13:56.234 INFO  twigkit.Start - 7. SecurityModule (HIGH) 
+09:13:56.234 INFO  twigkit.Start - 8. FusionSignalsMessageProducerModule (MEDIUM) 
+09:13:56.234 INFO  twigkit.Start - 9. AppInspectionModule (LOWEST) 
+09:13:56.234 INFO  twigkit.Start - 10. InsightsModule (LOWEST) 
+09:13:56.235 INFO  twigkit.Start - 11. FusionModule (LOWEST) 
+09:13:56.235 INFO  twigkit.Start - 12. SolrModule (LOWEST) 
+09:13:56.235 INFO  twigkit.Start - 13. JSPModule (LOWEST) 
+09:13:56.235 INFO  twigkit.Start - 14. HttpModule (LOWEST) 
+09:13:56.235 INFO  twigkit.Start - 15. CacheModule (LOWEST) 
+09:13:56.236 INFO  twigkit.Start - 16. RecordingModule (LOWEST) 
+09:13:56.236 INFO  twigkit.Start - 17. DriverRegistrationModule (LOWEST) 
+09:13:56.236 INFO  twigkit.Start - 18. ConfigurationReloadModule (LOWEST) 
+09:13:56.236 INFO  twigkit.Start - 19. LicenseRestrictionsModule (LOWEST) 
+09:13:56.236 INFO  twigkit.Start - 20. WebServicesModule (LOWEST) 
+09:13:56.236 INFO  twigkit.Start - 21. WorkflowModule (LOWEST) 
+09:13:56.237 INFO  twigkit.Start - 22. MediaModule (LOWEST) 
+09:13:56.237 INFO  twigkit.Start - 23. Wro4jModule (LOWEST) 
+09:13:56.237 INFO  twigkit.app.AppModule - Application Module loaded! 
+09:13:56.314 INFO  twigkit.log.LoggerModule - Logger Module loaded! 
+09:13:56.319 INFO  twigkit.activity.ActivityModule - Activity tracker module loaded. All outbound field URLs are intercepted by default. 
+09:13:56.320 INFO  twigkit.activity.ActivityModule - Activity tracking framework module loaded. 
+09:13:56.323 INFO  t.s.s.SpringSecurityModule - Instantiating twigkit.security.springsecurity.provider.SpringSecurityProvider 
+09:13:56.323 INFO  t.s.s.SpringSecurityModule - Spring Security Module loaded! 
+09:13:56.329 INFO  t.s.fusion.FusionSessionModule - Fusion Session Module loaded! 
+09:13:56.330 INFO  t.s.s.SpringSecurityModule - Instantiating twigkit.security.springsecurity.provider.SpringSecurityProvider 
+09:13:56.330 INFO  t.s.s.SpringSecurityModule - Spring Security Module loaded! 
+09:13:56.339 INFO  twigkit.security.SecurityModule - Text encryptor instantiated 
+09:13:56.340 INFO  twigkit.security.SecurityModule - DomainMappingFilter disabled 
+09:13:56.341 INFO  twigkit.security.SecurityModule - UserMappingFilter disabled 
+09:13:56.341 INFO  twigkit.security.SecurityModule - twigkit.security.filter.UserToGroupMappingFilter disabled 
+09:13:56.342 INFO  t.s.SecurityFilterExecutionModule - Registering Authentication Filters... 
+09:13:56.343 INFO  t.s.SecurityFilterExecutionModule - Registering Authorisation Filters... 
+09:13:56.345 INFO  twigkit.security.SecurityModule - Security Module loaded! 
+09:13:56.352 INFO  t.m.s.f.FusionSignalsMessageProducerModule - Fusion message producer module loaded 
+09:13:56.353 INFO  t.app.inspection.AppInspectionModule - Application inspection module loaded 
+09:13:56.355 INFO  twigkit.insights.InsightsModule - Insights Module loaded! 
+09:13:56.366 INFO  twigkit.search.fusion.FusionModule - Fusion Platform Module loaded! 
+09:13:56.369 INFO  twigkit.search.solr.SolrModule - Solr Platform Module loaded! 
+09:13:56.372 INFO  twigkit.ui.jsp.JSPModule - Deploying TwigKitServlets... 
+09:13:56.379 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/query-suggestion-service/* -> JSONQuerySuggestionServiceServlet 
+09:13:56.381 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/platform/rss/* -> RSSSearchServiceServlet 
+09:13:56.383 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/proxy -> ProxyServlet 
+09:13:56.384 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/url -> RedirectServlet 
+09:13:56.385 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/activity/click -> ClickTrackingService 
+09:13:56.386 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/redirect/* -> RedirectServlet 
+09:13:56.388 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/migrate/* -> MigrationServlet 
+09:13:56.391 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/media/export/excel/* -> ExcelExportServlet 
+09:13:56.393 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/media/export/csv/* -> CSVExportServlet 
+09:13:56.394 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/media/export/offline/csv/* -> OfflineCSVExportServlet 
+09:13:56.394 INFO  twigkit.ui.jsp.JSPModule - Deploying SecureTwigKitServlets... 
+09:13:56.396 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/secure/services/url -> RedirectServlet 
+09:13:56.397 INFO  twigkit.ui.jsp.JSPModule - JSP Module loaded! 
+09:13:56.399 INFO  twigkit.http.HttpModule - CORS support enabled 
+09:13:56.399 INFO  twigkit.http.HttpModule - > cors.supportedMethods: GET, POST, DELETE, HEAD 
+09:13:56.399 INFO  twigkit.http.HttpModule - > cors.allowOrigin: * 
+09:13:56.400 INFO  twigkit.http.HttpModule - Not removing whitespace from HTML as per twigkit.properties [ui.jsp.trimWhiteSpace] 
+09:13:56.401 INFO  twigkit.http.HttpModule - Http Module loaded! 
+09:13:56.512 INFO  twigkit.cache.CacheModule - Cache Module loaded! 
+09:13:56.514 DEBUG t.c.reload.ConfigurationReloadModule - Registering application configuration with configuration watcher ... 
+09:13:56.520 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/ 
+09:13:56.523 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/activity/ 
+09:13:56.524 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/activity/tracking/ 
+09:13:56.524 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/message/ 
+09:13:56.525 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/message/service/ 
+09:13:56.525 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/platforms/ 
+09:13:56.526 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/platforms/fusion/ 
+09:13:56.527 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/platforms/solr/ 
+09:13:56.527 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/processors/ 
+09:13:56.528 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/processors/response/ 
+09:13:56.528 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/security/ 
+09:13:56.529 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/ 
+09:13:56.530 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/api/ 
+09:13:56.531 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/content/ 
+09:13:56.531 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/publish/ 
+09:13:56.532 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/suggestions/ 
+09:13:56.535 INFO  t.c.reload.ConfigurationReloadModule - Configuration Reload Module loaded! 
+09:13:56.537 INFO  t.license.LicenseRestrictionsModule - License Restrictions Module loaded! 
+09:13:56.553 INFO  twigkit.service.WebServicesModule - Web Services Module loaded! 
+09:13:56.557 INFO  twigkit.processor.WorkflowModule - Binding Processor classes... 
+09:13:56.561 INFO  twigkit.processor.WorkflowModule - > twigkit.search.solr.processors.SolrDateRangeFacetQueries 
+09:13:56.563 INFO  twigkit.processor.WorkflowModule - > twigkit.search.solr.processors.SolrDateRangeFacetResponse 
+09:13:56.565 INFO  twigkit.processor.WorkflowModule - > twigkit.security.processor.AddFilterProcessor 
+09:13:56.566 INFO  twigkit.processor.WorkflowModule - > twigkit.security.processor.AddRolesFilterProcessor 
+09:13:56.567 INFO  twigkit.processor.WorkflowModule - > twigkit.security.processor.RoleLocalizer 
+09:13:56.569 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.query.AddFilterProcessor 
+09:13:56.570 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.query.CompositeFieldProcessor 
+09:13:56.571 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.query.ReplaceFilterValue 
+09:13:56.573 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.CopyFacetProcessor 
+09:13:56.575 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.CopyFieldProcessor 
+09:13:56.576 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.CreateFacetProcessor 
+09:13:56.579 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.DateFacetValueFormatter 
+09:13:56.581 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.DatePartExtractor 
+09:13:56.583 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.DateRangeFacetProcessor 
+09:13:56.584 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetFilterSortByCount 
+09:13:56.609 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetFilterSortByValue 
+09:13:56.610 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetFilterValueMappingProcessor 
+09:13:56.611 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetParameterProcessor 
+09:13:56.613 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetSortProcessor 
+09:13:56.614 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FieldDateParser 
+09:13:56.615 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FieldToMultiValueFieldProcessor 
+09:13:56.617 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.HostNameExtractor 
+09:13:56.618 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.LinkMarkupProcessor 
+09:13:56.620 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.RegExFieldValueTaggerProcessor 
+09:13:56.621 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.RemoveFacetFiltersByRegex 
+09:13:56.622 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.RemoveFacetsProcessor 
+09:13:56.623 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ReplaceFieldValue 
+09:13:56.624 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ReplaceFilterValue 
+09:13:56.626 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ResponseLoggingProcessor 
+09:13:56.627 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ResultGroupProcessor 
+09:13:56.628 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ShallowFacetGenerator 
+09:13:56.629 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ShallowHierarchicalFacetProcessor 
+09:13:56.630 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.TweetMarkupProcessor 
+09:13:56.631 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FieldValueParser 
+09:13:56.632 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetSequenceHierarchy 
+09:13:56.633 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.LocaliseValues 
+09:13:56.634 INFO  twigkit.processor.WorkflowModule - Done binding Processor classes! 
+09:13:56.636 INFO  twigkit.processor.WorkflowModule - Processor Module loaded! 
+09:13:56.915 INFO  twigkit.media.MediaModule - Supported image formats: 
+09:13:56.916 INFO  twigkit.media.MediaModule - 	- JPEG 2000 
+09:13:56.916 INFO  twigkit.media.MediaModule - 	- JPG 
+09:13:56.916 INFO  twigkit.media.MediaModule - 	- tiff 
+09:13:56.916 INFO  twigkit.media.MediaModule - 	- bmp 
+09:13:56.916 INFO  twigkit.media.MediaModule - 	- gif 
+09:13:56.917 INFO  twigkit.media.MediaModule - 	- WBMP 
+09:13:56.917 INFO  twigkit.media.MediaModule - 	- PNG 
+09:13:56.917 INFO  twigkit.media.MediaModule - 	- RAW 
+09:13:56.917 INFO  twigkit.media.MediaModule - 	- JPEG 
+09:13:56.917 INFO  twigkit.media.MediaModule - 	- btiff 
+09:13:56.918 INFO  twigkit.media.MediaModule - 	- PNM 
+09:13:56.918 INFO  twigkit.media.MediaModule - 	- tif 
+09:13:56.918 INFO  twigkit.media.MediaModule - 	- TIFF 
+09:13:56.918 INFO  twigkit.media.MediaModule - 	- jpeg 
+09:13:56.918 INFO  twigkit.media.MediaModule - 	- wbmp 
+09:13:56.918 INFO  twigkit.media.MediaModule - 	- jpg 
+09:13:56.919 INFO  twigkit.media.MediaModule - 	- JPEG2000 
+09:13:56.919 INFO  twigkit.media.MediaModule - 	- BMP 
+09:13:56.919 INFO  twigkit.media.MediaModule - 	- GIF 
+09:13:56.919 INFO  twigkit.media.MediaModule - 	- png 
+09:13:56.919 INFO  twigkit.media.MediaModule - 	- raw 
+09:13:56.919 INFO  twigkit.media.MediaModule - 	- pnm 
+09:13:56.920 INFO  twigkit.media.MediaModule - 	- TIF 
+09:13:56.920 INFO  twigkit.media.MediaModule - 	- jpeg2000 
+09:13:56.920 INFO  twigkit.media.MediaModule - 	- jpeg 2000 
+09:13:56.920 INFO  twigkit.media.MediaModule - 	- BTIFF 
+09:13:56.920 INFO  twigkit.media.MediaModule - Media Module loaded! 
+09:13:56.925 DEBUG twigkit.ui.js.wro4j.WroConfiguration - In DEVELOPMENT mode - registering a 5 second resource watcher interval 
+09:13:56.926 INFO  twigkit.ui.js.Wro4jModule - Wro4j Module loaded! 
+09:13:56.928 INFO  twigkit.Start - All TwigKitModules loaded! 
+09:13:56.929 INFO  twigkit.InitializerModule - TwigKit Module loaded! 
+09:13:57.326 DEBUG t.f.api.session.FusionSessionStore - Initialising Fusion session store. Each session will last for 28799000 milliseconds unless the session times out due to a prolonged period of inactivity. 
+09:13:57.341 INFO  twigkit.TwigKitApplication - App Studio Guice Injector ready! 
+09:13:57.342 INFO  twigkit.TwigKitApplication -  
+09:13:57.341 INFO  twigkit.Start - Notifying all modules that injector is ready 
+09:13:57.343 INFO  twigkit.TwigKitApplication - Host: Sanket’s-MacBook-Pro 
+09:13:57.344 INFO  twigkit.TwigKitApplication -  
+09:13:57.384 INFO  twigkit.TwigKitApplication - License VALID until Wed Dec 30 23:00:00 CST 2020 
+09:13:57.384 INFO  twigkit.TwigKitApplication - Licensed host: * 
+09:13:57.385 INFO  twigkit.TwigKitApplication - Licensed email address: sang.wang@lucidworks.com 
+09:13:57.386 INFO  twigkit.TwigKitApplication - Licensed modules: 
+09:13:57.389 INFO  twigkit.TwigKitApplication - > fusion(scope: unlimited) 
+09:13:57.389 INFO  twigkit.TwigKitApplication - > environment(scope: [Ljava.lang.String;@3eb29382) 
+09:13:57.390 INFO  twigkit.TwigKitApplication - > fusion.connectors(scope: unlimited) 
+09:13:57.390 INFO  twigkit.TwigKitApplication - > fusion.server(scope: unlimited) 
+09:13:57.390 INFO  twigkit.TwigKitApplication - > security(scope: unlimited) 
+09:13:57.391 INFO  twigkit.TwigKitApplication - > webservices(scope: unlimited) 
+09:13:57.391 INFO  twigkit.TwigKitApplication - > workflow(scope: unlimited) 
+09:13:57.393 INFO  twigkit.TwigKitApplication - > solr(scope: unlimited) 
+09:13:57.393 INFO  twigkit.TwigKitApplication - > organisation(scope: [Ljava.lang.String;@209baf91) 
+09:13:57.393 INFO  twigkit.TwigKitApplication - > media(scope: unlimited) 
+09:13:57.394 INFO  twigkit.TwigKitApplication - > user(scope: [Ljava.lang.String;@5e1d3188) 
+09:13:57.394 INFO  twigkit.TwigKitApplication -  
+09:13:57.476 ERROR t.f.a.auth.AuthenticationRouterImpl - User has enabled impersonation via a service account but the service account credentials are incomplete. 
+09:13:57.590 INFO  t.s.SecurityFilterExecutionModule - Initialising SecurityFilters... 
+09:13:57.591 INFO  t.s.SecurityFilterExecutionModule - > AuthorisationFilter  [FusionAuthorisationFilter] initialised! 
+09:13:57.665 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.click] 
+09:13:57.673 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.request] 
+09:13:57.681 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.login] 
+09:13:57.690 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.annotation] 
+09:13:57.811 DEBUG twigkit.ui.js.wro4j.WroConfiguration - In DEVELOPMENT mode - registering a 5 second resource watcher interval 
+09:13:58.142 WARN  t.m.servlet.OfflineCSVExportServlet - No configuration found for offline export under services/media/export/offline. Default settings used. 
+09:13:58.143 INFO  t.m.servlet.OfflineCSVExportServlet - Initialised offline export servlet with the following properties: 
+09:13:58.143 INFO  t.m.servlet.OfflineCSVExportServlet - 	- folder: offline-exports 
+09:13:58.143 INFO  t.m.servlet.OfflineCSVExportServlet - 	- compress: false 
+09:13:58.144 INFO  t.m.servlet.OfflineCSVExportServlet - 	- temp folder: /var/folders/3h/7jwpt2gd69n0r04xgbt7r9zr0000gn/T 
+09:13:58.144 INFO  t.m.servlet.OfflineCSVExportServlet - 	- redirect path: /export-in-progress/ 
+09:13:59.922 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService offline path: /tmp/twigkit/offline 
+09:13:59.930 DEBUG twigkit.frame.CachedImageIOService - Creating cache from defaults! 
+09:14:00.035 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService offline path: /tmp/twigkit/offline 
+09:14:03.168 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:14:03.168 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:14:03.186 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:14:03.186 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:14:06.611 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:14:06.611 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:14:13.898 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:14:13.899 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:14:13.905 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:14:13.905 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:14:14.673 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:14:14.673 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:14:14.676 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:14:14.676 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:14:22.313 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:14:22.314 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:14:22.795 DEBUG t.u.j.w.r.RuntimeWroManagerFactory - Attempting to read wro.xml from /WEB-INF/ 
+09:14:36.601 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:14:36.601 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:14:37.066 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+09:14:37.067 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:37.205 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:37.206 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:37.339 WARN  t.m.s.f.FusionSignalsMessageProducer - Received 401 status code from Fusion with reason phrase: Unauthorized 
+09:14:37.340 WARN  t.m.s.f.FusionSignalsMessageProducer - Error when sending message - disabling message channel and trying again after 10s 
+09:14:38.265 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:38.741 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:38.788 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:38.813 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+09:14:38.961 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:39.057 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:39.062 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+09:14:39.092 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:39.113 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=ed8e6597-c1b9-4e68-96eb-1c4e6b20a774&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+09:14:39.114 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://localhost:8764/api/apollo/query/teconnect 
+09:14:40.888 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=ed8e6597-c1b9-4e68-96eb-1c4e6b20a774&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 1774 ms 
+09:14:45.720 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:14:45.733 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=12&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=ed8e6597-c1b9-4e68-96eb-1c4e6b20a774&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+09:14:45.734 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://localhost:8764/api/apollo/query/teconnect 
+09:14:45.924 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=12&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=ed8e6597-c1b9-4e68-96eb-1c4e6b20a774&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 190 ms 
+09:14:56.122 DEBUG t.license.LicenseMonitor$ExpiryCheck - Scheduling new license expiry notification with HOURLY frequency 
+09:14:56.123 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+09:35:11.190 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@72ae38a6 
+09:35:11.315 DEBUG t.s.fusion.FusionAuthorisationFilter - The Fusion session for admin has expired. Logging user out. 
+09:35:11.334 ERROR t.s.SecurityFilterExecutionModule - Authorisation chain failed - returning 403 
+09:35:12.158 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:35:12.159 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:35:12.167 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:35:12.167 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:35:14.079 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:35:14.080 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:35:14.151 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+09:35:14.153 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:14.197 WARN  t.m.s.f.FusionSignalsMessageProducer - Received 401 status code from Fusion with reason phrase: Unauthorized 
+09:35:14.197 WARN  t.m.s.f.FusionSignalsMessageProducer - Error when sending message - disabling message channel and trying again after 10s 
+09:35:14.199 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:14.199 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:14.755 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:14.905 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:14.915 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+09:35:14.998 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:15.169 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:15.185 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:15.188 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:15.189 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+09:35:15.194 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=9cc3677a-b5ac-4acf-9feb-157984c308ec&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+09:35:15.196 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://localhost:8764/api/apollo/query/teconnect 
+09:35:15.301 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=9cc3677a-b5ac-4acf-9feb-157984c308ec&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 105 ms 
+09:35:15.496 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:35:15.499 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=12&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=9cc3677a-b5ac-4acf-9feb-157984c308ec&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+09:35:15.500 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://localhost:8764/api/apollo/query/teconnect 
+09:35:15.561 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=12&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=9cc3677a-b5ac-4acf-9feb-157984c308ec&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 61 ms 
+09:48:25.928 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@620f9a1a 
+09:48:25.931 DEBUG t.s.fusion.FusionAuthorisationFilter - The Fusion session for admin has expired. Logging user out. 
+09:48:25.931 ERROR t.s.SecurityFilterExecutionModule - Authorisation chain failed - returning 403 
+09:48:26.273 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:48:26.273 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:48:26.278 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:48:26.278 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:48:27.878 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:48:27.878 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:48:27.958 ERROR t.s.fusion.FusionAuthenticator - Unable to create Fusion session for user admin at: http://localhost:8764/api/session?realmName=native 
+java.net.NoRouteToHostException: No route to host (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_152]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_152]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_152]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_152]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_152]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_152]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.5.1.jar:4.5.1]
+	at twigkit.security.fusion.FusionAuthenticator.createSession(FusionAuthenticator.java:126) ~[twigkit.security.provider.fusion-4.1.1.jar:4.1.1]
+	at twigkit.security.fusion.FusionAuthenticationProvider.authenticate(FusionAuthenticationProvider.java:37) [twigkit.security.provider.fusion-4.1.1.jar:4.1.1]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174) [spring-security-core-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199) [spring-security-core-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:121) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:106) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) [spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) [spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668) [jetty-servlet-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581) [jetty-servlet-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511) [jetty-servlet-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.Server.handle(Server.java:518) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273) [jetty-io-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) [jetty-io-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [jetty-io-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246) [jetty-util-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156) [jetty-util-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654) [jetty-util-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572) [jetty-util-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+09:48:27.972 ERROR t.s.f.FusionAuthenticationProvider - Failed to authenticate against Fusion. 
+09:48:27.976 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:48:27.977 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:48:30.596 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:48:30.596 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+09:48:30.608 ERROR t.s.fusion.FusionAuthenticator - Unable to create Fusion session for user admin at: http://localhost:8764/api/session?realmName=native 
+java.net.NoRouteToHostException: No route to host (Host unreachable)
+	at java.net.PlainSocketImpl.socketConnect(Native Method) ~[na:1.8.0_152]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350) ~[na:1.8.0_152]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206) ~[na:1.8.0_152]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188) ~[na:1.8.0_152]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392) ~[na:1.8.0_152]
+	at java.net.Socket.connect(Socket.java:589) ~[na:1.8.0_152]
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184) ~[httpclient-4.5.1.jar:4.5.1]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82) ~[httpclient-4.5.1.jar:4.5.1]
+	at twigkit.security.fusion.FusionAuthenticator.createSession(FusionAuthenticator.java:126) ~[twigkit.security.provider.fusion-4.1.1.jar:4.1.1]
+	at twigkit.security.fusion.FusionAuthenticationProvider.authenticate(FusionAuthenticationProvider.java:37) [twigkit.security.provider.fusion-4.1.1.jar:4.1.1]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:174) [spring-security-core-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.authentication.ProviderManager.authenticate(ProviderManager.java:199) [spring-security-core-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter.attemptAuthentication(UsernamePasswordAuthenticationFilter.java:94) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.authentication.preauth.AbstractPreAuthenticatedProcessingFilter.doFilter(AbstractPreAuthenticatedProcessingFilter.java:121) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:121) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:66) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107) [spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:106) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:331) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:214) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:177) [spring-security-web-4.1.0.RELEASE.jar:4.1.0.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:346) [spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:262) [spring-web-4.2.5.RELEASE.jar:4.2.5.RELEASE]
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1668) [jetty-servlet-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:581) [jetty-servlet-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548) [jetty-security-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:226) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1160) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511) [jetty-servlet-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1092) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:213) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:119) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.Server.handle(Server.java:518) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:308) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:244) [jetty-server-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273) [jetty-io-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) [jetty-io-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [jetty-io-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceAndRun(ExecuteProduceConsume.java:246) [jetty-util-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:156) [jetty-util-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:654) [jetty-util-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:572) [jetty-util-9.3.8.v20160314.jar:9.3.8.v20160314]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_152]
+09:48:30.610 ERROR t.s.f.FusionAuthenticationProvider - Failed to authenticate against Fusion. 
+09:48:30.614 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+09:48:30.614 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+10:14:55.982 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+11:09:16.127 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+11:09:16.132 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+11:09:16.223 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+11:09:16.230 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:16.279 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:16.280 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:16.541 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:16.552 WARN  t.m.s.f.FusionSignalsMessageProducer - Received 401 status code from Fusion with reason phrase: Unauthorized 
+11:09:16.553 WARN  t.m.s.f.FusionSignalsMessageProducer - Error when sending message - disabling message channel and trying again after 10s 
+11:09:16.633 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:16.638 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+11:09:16.661 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:17.024 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:17.036 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:17.040 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:17.041 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+11:09:17.045 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=c7d26c87-5c57-402a-a64b-a62d6b1146d9&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+11:09:17.048 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://localhost:8764/api/apollo/query/teconnect 
+11:09:17.512 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=c7d26c87-5c57-402a-a64b-a62d6b1146d9&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 465 ms 
+11:09:28.684 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:09:28.693 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=12&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=c7d26c87-5c57-402a-a64b-a62d6b1146d9&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+11:09:28.694 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://localhost:8764/api/apollo/query/teconnect 
+11:09:28.819 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=12&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=c7d26c87-5c57-402a-a64b-a62d6b1146d9&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 125 ms 
+11:14:55.827 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+11:20:01.021 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@60ec2448 
+11:20:01.023 DEBUG t.s.fusion.FusionAuthorisationFilter - The Fusion session for admin has expired. Logging user out. 
+11:20:01.024 ERROR t.s.SecurityFilterExecutionModule - Authorisation chain failed - returning 403 
+11:20:01.038 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+11:20:01.039 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+11:20:01.091 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+11:20:01.091 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+11:20:02.620 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+11:20:02.621 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+11:20:02.671 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+11:20:02.675 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:02.703 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:02.704 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:02.729 WARN  t.m.s.f.FusionSignalsMessageProducer - Received 401 status code from Fusion with reason phrase: Unauthorized 
+11:20:02.730 WARN  t.m.s.f.FusionSignalsMessageProducer - Error when sending message - disabling message channel and trying again after 10s 
+11:20:02.954 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:03.131 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:03.135 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+11:20:03.153 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:03.221 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:03.230 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:03.233 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+11:20:03.236 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:03.238 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=e790bdc6-399a-47c9-8cf5-a10cefa0738d&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+11:20:03.238 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://localhost:8764/api/apollo/query/teconnect 
+11:20:03.376 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=e790bdc6-399a-47c9-8cf5-a10cefa0738d&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 138 ms 
+11:20:15.269 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:15.276 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+11:20:15.283 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@18f68819 
+11:20:15.288 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=0&rows=12&hl=true&q=AMP+CT+Wire-to-Board+Connectors&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=e790bdc6-399a-47c9-8cf5-a10cefa0738d&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+11:20:15.288 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://localhost:8764/api/apollo/query/teconnect 
+11:20:15.308 WARN  t.m.s.f.FusionSignalsMessageProducer - Received 401 status code from Fusion with reason phrase: Unauthorized 
+11:20:15.309 WARN  t.m.s.f.FusionSignalsMessageProducer - Error when sending message - disabling message channel and trying again after 10s 
+11:20:15.625 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=0&rows=12&hl=true&q=AMP+CT+Wire-to-Board+Connectors&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=e790bdc6-399a-47c9-8cf5-a10cefa0738d&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 337 ms 
+12:14:54.435 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+13:14:54.285 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+14:14:54.132 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+15:14:53.987 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+15:25:31.498 INFO  twigkit.TwigKitApplication - Shutting down... 
+15:25:31.506 DEBUG twigkit.cache.CacheModule - Shutting down Cachalot cache manager 
+15:25:31.611 DEBUG t.c.platform.PlatformCacheProvider - Creating new PlatformCacheProvider 
+15:25:31.658 INFO  t.driver.DriverRegistrationModule - De-registering JDBC driver org.apache.solr.client.solrj.io.sql.DriverImpl@4b83727b 
+15:25:31.662 DEBUG t.conf.reload.ConfigurationWatcher - Closing configuration watcher service. 
+15:25:31.662 INFO  twigkit.processor.WorkflowModule - Shutting down... 
+15:25:31.667 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService offline path: /tmp/twigkit/offline 
+15:25:31.712 DEBUG twigkit.frame.CachedImageIOService - Shutting down cache manager for cache frame-cache 
+15:25:31.732 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class it.geosolutions.imageioimpl.plugins.tiff.TIFFImageWriterSpi 
+15:25:31.732 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.tiff.TIFFImageWriterSpi 
+15:25:31.732 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.raw.RawImageWriterSpi 
+15:25:31.732 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.wbmp.WBMPImageWriterSpi 
+15:25:31.734 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.twelvemonkeys.imageio.plugins.jpeg.JPEGImageWriterSpi 
+15:25:31.734 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.gif.GIFImageWriterSpi 
+15:25:31.734 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageWriterSpi 
+15:25:31.734 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.bmp.BMPImageWriterSpi 
+15:25:31.735 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.pnm.PNMImageWriterSpi 
+15:25:31.735 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+15:25:31.735 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+15:25:31.735 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.stream.ChannelImageInputStreamSpi 
+15:25:31.735 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+15:25:31.735 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.stream.ChannelImageOutputStreamSpi 
+15:25:31.735 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+15:25:31.736 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class it.geosolutions.imageioimpl.plugins.tiff.TIFFImageReaderSpi 
+15:25:31.737 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.tiff.TIFFImageReaderSpi 
+15:25:31.737 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.twelvemonkeys.imageio.plugins.jpeg.JPEGImageReaderSpi 
+15:25:31.737 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageReaderSpi 
+15:25:31.738 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.wbmp.WBMPImageReaderSpi 
+15:25:31.738 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.pnm.PNMImageReaderSpi 
+15:25:31.738 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.bmp.BMPImageReaderSpi 
+15:25:31.738 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.raw.RawImageReaderSpi 
+15:25:31.738 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 

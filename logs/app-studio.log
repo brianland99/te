@@ -1,0 +1,73 @@
+00:11:53.461 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+01:11:52.860 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+02:11:52.274 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+03:11:51.697 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+04:11:51.083 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+05:11:50.491 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+06:11:49.896 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+07:11:49.298 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+08:11:48.705 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+09:11:48.114 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+10:08:23.135 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+10:08:23.137 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+10:08:23.184 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+10:08:23.185 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+10:08:25.179 DEBUG t.u.j.w.r.RuntimeWroManagerFactory - Attempting to read wro.xml from /WEB-INF/ 
+10:08:38.934 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: null 
+10:08:38.935 DEBUG t.s.h.HeaderPreAuthenticationFilter - No pre-authenticated principal found in request 
+10:08:39.243 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+10:08:39.243 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:39.358 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:39.362 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:40.320 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:40.511 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:40.544 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:40.588 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:40.599 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:40.601 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:40.604 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+10:08:40.605 INFO  t.a.p.AddRuntimeInformationProcessor - Configuration property twigkit.app-id is missing - add this in order to track activity across multiple applications 
+10:08:40.643 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=4016066c-0085-4763-904b-d749a0a5e4c3&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+10:08:40.643 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://35.160.52.94:8764/api/apollo/query/teconnect 
+10:08:41.375 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=0&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=4016066c-0085-4763-904b-d749a0a5e4c3&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 732 ms 
+10:08:58.295 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:58.301 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=12&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=4016066c-0085-4763-904b-d749a0a5e4c3&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+10:08:58.302 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://35.160.52.94:8764/api/apollo/query/teconnect 
+10:08:58.686 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=12&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=4016066c-0085-4763-904b-d749a0a5e4c3&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 384 ms 
+10:08:59.755 DEBUG t.s.h.HeaderPreAuthenticationFilter - Checking secure context token: twigkit.security.fusion.FusionAuthentication@36434cc5 
+10:08:59.761 DEBUG twigkit.search.solr.SolrQueryAdapter - Mapped Solr Query [start=24&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=4016066c-0085-4763-904b-d749a0a5e4c3&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR] 
+10:08:59.762 DEBUG twigkit.search.solr.HttpSolrPlatform - Returning HTTP client for http://35.160.52.94:8764/api/apollo/query/teconnect 
+10:09:00.173 DEBUG twigkit.search.solr.SolrPlatform - Searching Solr with start=24&rows=12&hl=true&q=*:*&facet=true&facet.field=marketingBrandName_s&facet.field=partTypeName_s&facet.field=popc_s&facet.field=tooling_s&facet.field=Product_Type_s&facet.field=elvComplianceCode_s&facet.field=elvRohsComplianceCode_s&fl=*,score&username=admin&session=4016066c-0085-4763-904b-d749a0a5e4c3&spellcheck=true&spellcheck.collate=true&qt=/&q.op=OR took 411 ms 
+10:10:10.353 INFO  twigkit.TwigKitApplication - Shutting down... 
+10:10:10.354 DEBUG twigkit.cache.CacheModule - Shutting down Cachalot cache manager 
+10:10:10.365 DEBUG t.c.platform.PlatformCacheProvider - Creating new PlatformCacheProvider 
+10:10:10.369 INFO  t.driver.DriverRegistrationModule - De-registering JDBC driver org.apache.solr.client.solrj.io.sql.DriverImpl@7f8f7b05 
+10:10:10.370 DEBUG t.conf.reload.ConfigurationWatcher - Closing configuration watcher service. 
+10:10:10.371 INFO  twigkit.processor.WorkflowModule - Shutting down... 
+10:10:10.373 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService created offline repository: /tmp/twigkit/offline 
+10:10:10.373 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService offline path: /tmp/twigkit/offline 
+10:10:10.376 DEBUG twigkit.frame.CachedImageIOService - Shutting down cache manager for cache frame-cache 
+10:10:10.382 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.stream.ChannelImageInputStreamSpi 
+10:10:10.383 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+10:10:10.383 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.stream.ChannelImageOutputStreamSpi 
+10:10:10.383 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+10:10:10.383 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+10:10:10.384 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.tiff.TIFFImageReaderSpi 
+10:10:10.384 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageReaderSpi 
+10:10:10.384 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.wbmp.WBMPImageReaderSpi 
+10:10:10.384 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.bmp.BMPImageReaderSpi 
+10:10:10.384 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.raw.RawImageReaderSpi 
+10:10:10.384 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.pnm.PNMImageReaderSpi 
+10:10:10.385 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.twelvemonkeys.imageio.plugins.jpeg.JPEGImageReaderSpi 
+10:10:10.385 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class it.geosolutions.imageioimpl.plugins.tiff.TIFFImageReaderSpi 
+10:10:10.385 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+10:10:10.385 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class it.geosolutions.imageioimpl.plugins.tiff.TIFFImageWriterSpi 
+10:10:10.385 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageWriterSpi 
+10:10:10.385 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.raw.RawImageWriterSpi 
+10:10:10.386 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.gif.GIFImageWriterSpi 
+10:10:10.386 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.twelvemonkeys.imageio.plugins.jpeg.JPEGImageWriterSpi 
+10:10:10.386 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.wbmp.WBMPImageWriterSpi 
+10:10:10.386 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.bmp.BMPImageWriterSpi 
+10:10:10.386 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.pnm.PNMImageWriterSpi 
+10:10:10.386 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.tiff.TIFFImageWriterSpi 
+10:10:10.387 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 

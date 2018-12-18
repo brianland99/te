@@ -1,0 +1,757 @@
+09:59:33.528 INFO  twigkit.TwigKitApplication -  
+09:59:33.541 INFO  twigkit.TwigKitApplication -                                                              
+09:59:33.541 INFO  twigkit.TwigKitApplication -  ████╗ █████╗ █████╗   █████╗██████╗██╗ ██╗█████╗ ██╗ ████╗  
+09:59:33.542 INFO  twigkit.TwigKitApplication - ██╔═██╗██╔═██╗██╔═██╗  ██╔══╝╚═██╔═╝██║ ██║██╔═██╗██║██╔═██╗ 
+09:59:33.542 INFO  twigkit.TwigKitApplication - ██████║█████╔╝█████╔╝  █████╗  ██║  ██║ ██║██║ ██║██║██║ ██║ 
+09:59:33.542 INFO  twigkit.TwigKitApplication - ██╔═██║██╔══╝ ██╔══╝   ╚══██║  ██║  ██║ ██║██║ ██║██║██║ ██║ 
+09:59:33.544 INFO  twigkit.TwigKitApplication - ██║ ██║██║    ██║      █████║  ██║  ╚████╔╝█████╔╝██║╚████╔╝ 
+09:59:33.545 INFO  twigkit.TwigKitApplication - ╚═╝ ╚═╝╚═╝    ╚═╝      ╚════╝  ╚═╝   ╚═══╝ ╚════╝ ╚═╝ ╚═══╝  
+09:59:33.545 INFO  twigkit.TwigKitApplication -                                                              
+09:59:33.545 INFO  twigkit.TwigKitApplication -                     Lovingly crafted in 
+09:59:33.545 INFO  twigkit.TwigKitApplication -                          Cambridge 
+09:59:33.545 INFO  twigkit.TwigKitApplication -  
+09:59:33.546 INFO  twigkit.TwigKitApplication -  
+09:59:33.550 INFO  twigkit.TwigKitApplication -      App Studio is starting in DEVELOPMENT mode... 
+09:59:33.551 INFO  twigkit.TwigKitApplication -  
+09:59:33.552 INFO  twigkit.TwigKitApplication -  
+09:59:33.552 INFO  twigkit.TwigKitApplication - Built with Appkit version 4.1.1 
+09:59:33.552 INFO  twigkit.TwigKitApplication -  
+09:59:33.652 INFO  twigkit.fig.visitor.ConfigLogger - APP 
+09:59:33.652 INFO  twigkit.fig.visitor.ConfigLogger -   |-- markup = false 
+09:59:33.652 INFO  twigkit.fig.visitor.ConfigLogger -   |-- initialised = true 
+09:59:33.653 INFO  twigkit.fig.visitor.ConfigLogger - CORS 
+09:59:33.653 INFO  twigkit.fig.visitor.ConfigLogger -   |-- cors.supportedMethods = GET, POST, DELETE, HEAD 
+09:59:33.653 INFO  twigkit.fig.visitor.ConfigLogger -   |-- cors.allowOrigin = * 
+09:59:33.653 INFO  twigkit.fig.visitor.ConfigLogger - TWIGKIT 
+09:59:33.654 INFO  twigkit.fig.visitor.ConfigLogger -   |-- ui.trim-white-space = false 
+09:59:33.654 INFO  twigkit.fig.visitor.ConfigLogger -   |-- license-file = /twigkit.lic 
+09:59:33.654 INFO  twigkit.fig.visitor.ConfigLogger - ACTIVITY 
+09:59:33.654 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.654 INFO  twigkit.fig.visitor.ConfigLogger -   +-- TRACKING 
+09:59:33.655 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.655 INFO  twigkit.fig.visitor.ConfigLogger -         +-- TRACKER 
+09:59:33.655 INFO  twigkit.fig.visitor.ConfigLogger -               |-- events = click,request,login,annotation 
+09:59:33.655 INFO  twigkit.fig.visitor.ConfigLogger - MESSAGE 
+09:59:33.655 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.656 INFO  twigkit.fig.visitor.ConfigLogger -   +-- SERVICE 
+09:59:33.656 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.656 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FUSION 
+09:59:33.656 INFO  twigkit.fig.visitor.ConfigLogger -               |-- query-profile = teconnect 
+09:59:33.656 INFO  twigkit.fig.visitor.ConfigLogger - PLATFORMS 
+09:59:33.656 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.657 INFO  twigkit.fig.visitor.ConfigLogger -   +-- FUSION 
+09:59:33.657 INFO  twigkit.fig.visitor.ConfigLogger -         |-- highlight = true 
+09:59:33.657 INFO  twigkit.fig.visitor.ConfigLogger -         |-- backwardsCompatible = true 
+09:59:33.657 INFO  twigkit.fig.visitor.ConfigLogger -         |-- name = twigkit.search.fusion.Fusion 
+09:59:33.657 INFO  twigkit.fig.visitor.ConfigLogger -         |-- resultIDField = id 
+09:59:33.658 INFO  twigkit.fig.visitor.ConfigLogger -         |-- defaultQuery = *:* 
+09:59:33.658 INFO  twigkit.fig.visitor.ConfigLogger -         |-- timeOut = 30000 
+09:59:33.658 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.658 INFO  twigkit.fig.visitor.ConfigLogger -         +-- DATA 
+09:59:33.658 INFO  twigkit.fig.visitor.ConfigLogger -               |-- highlight = true 
+09:59:33.658 INFO  twigkit.fig.visitor.ConfigLogger -               |-- backwardsCompatible = true 
+09:59:33.658 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.search.fusion.Fusion 
+09:59:33.659 INFO  twigkit.fig.visitor.ConfigLogger -               |-- resultIDField = id 
+09:59:33.659 INFO  twigkit.fig.visitor.ConfigLogger -               |-- defaultQuery = *:* 
+09:59:33.659 INFO  twigkit.fig.visitor.ConfigLogger -               |-- timeOut = 30000 
+09:59:33.659 INFO  twigkit.fig.visitor.ConfigLogger -               |-- defaultFacets = marketingBrandName_s,partTypeName_s,popc_s,tooling_s,Product_Type_s,elvComplianceCode_s,elvRohsComplianceCode_s 
+09:59:33.659 INFO  twigkit.fig.visitor.ConfigLogger -               |-- fusion-app = teconnect 
+09:59:33.659 INFO  twigkit.fig.visitor.ConfigLogger -               |-- query-profile = teconnect 
+09:59:33.660 INFO  twigkit.fig.visitor.ConfigLogger -               |-- application-title = TE-Connect 
+09:59:33.660 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.660 INFO  twigkit.fig.visitor.ConfigLogger -         +-- PEOPLE 
+09:59:33.660 INFO  twigkit.fig.visitor.ConfigLogger -               |-- highlight = true 
+09:59:33.660 INFO  twigkit.fig.visitor.ConfigLogger -               |-- backwardsCompatible = true 
+09:59:33.660 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.search.fusion.Fusion 
+09:59:33.661 INFO  twigkit.fig.visitor.ConfigLogger -               |-- resultIDField = id 
+09:59:33.661 INFO  twigkit.fig.visitor.ConfigLogger -               |-- defaultQuery = *:* 
+09:59:33.661 INFO  twigkit.fig.visitor.ConfigLogger -               |-- timeOut = 30000 
+09:59:33.661 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.661 INFO  twigkit.fig.visitor.ConfigLogger -   +-- SOLR 
+09:59:33.661 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.661 INFO  twigkit.fig.visitor.ConfigLogger -         +-- DATA 
+09:59:33.662 INFO  twigkit.fig.visitor.ConfigLogger -               |-- host = YOUR_HOST 
+09:59:33.662 INFO  twigkit.fig.visitor.ConfigLogger -               |-- requestHandler = YOUR_REQUEST_HANDLER 
+09:59:33.662 INFO  twigkit.fig.visitor.ConfigLogger -               |-- collection = YOUR_COLLECTION 
+09:59:33.662 INFO  twigkit.fig.visitor.ConfigLogger -               |-- port = 8983 
+09:59:33.694 INFO  twigkit.fig.visitor.ConfigLogger - PROCESSORS 
+09:59:33.695 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.695 INFO  twigkit.fig.visitor.ConfigLogger -   +-- RESPONSE 
+09:59:33.695 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.696 INFO  twigkit.fig.visitor.ConfigLogger -         +-- DATE-FORMAT 
+09:59:33.696 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.client.processor.response.DateFormatProcessor 
+09:59:33.696 INFO  twigkit.fig.visitor.ConfigLogger -               |-- fields = Date 
+09:59:33.696 INFO  twigkit.fig.visitor.ConfigLogger -               |-- values = display 
+09:59:33.697 INFO  twigkit.fig.visitor.ConfigLogger - SECURITY 
+09:59:33.697 INFO  twigkit.fig.visitor.ConfigLogger -   |-- password = fus10ns33d 
+09:59:33.697 INFO  twigkit.fig.visitor.ConfigLogger -   |-- type = spring_security 
+09:59:33.697 INFO  twigkit.fig.visitor.ConfigLogger -   |-- webservice-enabled = true 
+09:59:33.698 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.698 INFO  twigkit.fig.visitor.ConfigLogger -   +-- FUSION 
+09:59:33.698 INFO  twigkit.fig.visitor.ConfigLogger -         |-- password = fus10ns33d 
+09:59:33.699 INFO  twigkit.fig.visitor.ConfigLogger -         |-- type = spring_security 
+09:59:33.699 INFO  twigkit.fig.visitor.ConfigLogger -         |-- webservice-enabled = true 
+09:59:33.699 INFO  twigkit.fig.visitor.ConfigLogger -         |-- session-timeout = 10 
+09:59:33.699 INFO  twigkit.fig.visitor.ConfigLogger -         |-- realm = native 
+09:59:33.700 INFO  twigkit.fig.visitor.ConfigLogger - SERVICES 
+09:59:33.700 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.700 INFO  twigkit.fig.visitor.ConfigLogger -   +-- API 
+09:59:33.700 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.701 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FUSION 
+09:59:33.701 INFO  twigkit.fig.visitor.ConfigLogger -               |-- host = localhost 
+09:59:33.701 INFO  twigkit.fig.visitor.ConfigLogger -               |-- password = Enc(sIy9ZOtprFpV8VWEAFL9fQ==) 
+09:59:33.701 INFO  twigkit.fig.visitor.ConfigLogger -               |-- impersonate = true 
+09:59:33.702 INFO  twigkit.fig.visitor.ConfigLogger -               |-- userName 
+09:59:33.702 INFO  twigkit.fig.visitor.ConfigLogger -               |-- port = 8764 
+09:59:33.702 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.702 INFO  twigkit.fig.visitor.ConfigLogger -   +-- CONTENT 
+09:59:33.703 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.703 INFO  twigkit.fig.visitor.ConfigLogger -         +-- CONFIG 
+09:59:33.703 INFO  twigkit.fig.visitor.ConfigLogger -               |-- base = config 
+09:59:33.703 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.704 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FILE 
+09:59:33.704 INFO  twigkit.fig.visitor.ConfigLogger -               |-- base = app 
+09:59:33.704 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.704 INFO  twigkit.fig.visitor.ConfigLogger -   +-- PUBLISH 
+09:59:33.704 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.704 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FUSION 
+09:59:33.705 INFO  twigkit.fig.visitor.ConfigLogger -               |-- maven-war-file = app-studio 
+09:59:33.705 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+09:59:33.705 INFO  twigkit.fig.visitor.ConfigLogger -   +-- SUGGESTIONS 
+09:59:33.705 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.705 INFO  twigkit.fig.visitor.ConfigLogger -         +-- STATIC 
+09:59:33.705 INFO  twigkit.fig.visitor.ConfigLogger -               |-- numberOfSuggestions 
+09:59:33.706 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name 
+09:59:33.706 INFO  twigkit.fig.visitor.ConfigLogger -               |-- host 
+09:59:33.706 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+09:59:33.706 INFO  twigkit.fig.visitor.ConfigLogger -         +-- TERMS 
+09:59:33.706 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.search.solr.suggestions.SolrQueryTermsService 
+09:59:33.707 INFO  twigkit.fig.visitor.ConfigLogger -               |-- term-fields = title 
+09:59:33.707 INFO  twigkit.fig.visitor.ConfigLogger -               |-- source = platforms.fusion 
+09:59:33.707 INFO  twigkit.fig.visitor.ConfigLogger -               |-- title 
+09:59:33.713 INFO  twigkit.InitializerModule - Binding application-wide event bus 
+09:59:33.715 INFO  t.license.AbstractLicenseManager - Initialising license expiry check monitor 
+09:59:33.717 INFO  twigkit.license.PLM - Searching classpath for license file with name /twigkit.lic 
+09:59:33.717 INFO  twigkit.license.PLM - Looking for license file /Users/brianland/twigkit.lic in user's home directory 
+09:59:33.720 INFO  twigkit.license.PLM - Using license file /Users/brianland/twigkit.lic 
+09:59:33.757 INFO  twigkit.service.ServiceLoaderModule - Loading and binding TwigKit Services... 
+09:59:33.783 DEBUG t.ui.jsp.service.RSSSearchService - Supported feed types: rss_0.91U, rss_1.0, rss_2.0, rss_0.93, rss_0.92, rss_0.94, rss_0.91N, rss_0.9, atom_0.3, atom_1.0 
+09:59:33.784 INFO  twigkit.service.ServiceLoaderModule - > twigkit.ui.jsp.service.RSSSearchService 
+09:59:33.787 INFO  twigkit.service.ServiceLoaderModule - > twigkit.service.StaticQuerySuggestionService 
+09:59:33.788 INFO  twigkit.service.ServiceLoaderModule - > twigkit.service.FieldSearchQuerySuggestionService 
+09:59:33.789 INFO  twigkit.service.ServiceLoaderModule - > twigkit.service.FacetSearchQuerySuggestionService 
+09:59:33.790 INFO  twigkit.service.ServiceLoaderModule - Done loading and binding TwigKit Services! 
+09:59:33.790 INFO  twigkit.service.ServiceLoaderModule - Binding TwigKit Service configurations... 
+09:59:33.791 INFO  twigkit.service.ServiceLoaderModule - Done binding TwigKit Platform configurations! 
+09:59:33.795 INFO  t.conf.ConfigurationProviderModule - Binding TwigKit Platform configurations... 
+09:59:33.810 INFO  t.conf.ConfigurationProviderModule - Done binding TwigKit Platform configurations! 
+09:59:33.811 INFO  twigkit.Start - Automatically loading TwigKitModules... 
+09:59:33.823 INFO  twigkit.Start - TwigKitModule Start-up order: 
+09:59:33.823 INFO  twigkit.Start - 1. AppModule (HIGHEST) 
+09:59:33.824 INFO  twigkit.Start - 2. LoggerModule (HIGHEST) 
+09:59:33.824 INFO  twigkit.Start - 3. ActivityTrackerModule (HIGHEST) 
+09:59:33.824 INFO  twigkit.Start - 4. ActivityModule (HIGHEST) 
+09:59:33.824 INFO  twigkit.Start - 5. FusionSessionModule (HIGH) 
+09:59:33.824 INFO  twigkit.Start - 6. SpringSecurityModule (HIGH) 
+09:59:33.825 INFO  twigkit.Start - 7. SecurityModule (HIGH) 
+09:59:33.825 INFO  twigkit.Start - 8. FusionSignalsMessageProducerModule (MEDIUM) 
+09:59:33.825 INFO  twigkit.Start - 9. AppInspectionModule (LOWEST) 
+09:59:33.844 INFO  twigkit.Start - 10. InsightsModule (LOWEST) 
+09:59:33.845 INFO  twigkit.Start - 11. FusionModule (LOWEST) 
+09:59:33.845 INFO  twigkit.Start - 12. SolrModule (LOWEST) 
+09:59:33.846 INFO  twigkit.Start - 13. JSPModule (LOWEST) 
+09:59:33.846 INFO  twigkit.Start - 14. HttpModule (LOWEST) 
+09:59:33.846 INFO  twigkit.Start - 15. CacheModule (LOWEST) 
+09:59:33.847 INFO  twigkit.Start - 16. RecordingModule (LOWEST) 
+09:59:33.847 INFO  twigkit.Start - 17. DriverRegistrationModule (LOWEST) 
+09:59:33.847 INFO  twigkit.Start - 18. ConfigurationReloadModule (LOWEST) 
+09:59:33.848 INFO  twigkit.Start - 19. LicenseRestrictionsModule (LOWEST) 
+09:59:33.848 INFO  twigkit.Start - 20. WebServicesModule (LOWEST) 
+09:59:33.848 INFO  twigkit.Start - 21. WorkflowModule (LOWEST) 
+09:59:33.848 INFO  twigkit.Start - 22. MediaModule (LOWEST) 
+09:59:33.849 INFO  twigkit.Start - 23. Wro4jModule (LOWEST) 
+09:59:33.849 INFO  twigkit.app.AppModule - Application Module loaded! 
+09:59:33.922 INFO  twigkit.log.LoggerModule - Logger Module loaded! 
+09:59:33.925 INFO  twigkit.activity.ActivityModule - Activity tracker module loaded. All outbound field URLs are intercepted by default. 
+09:59:33.927 INFO  twigkit.activity.ActivityModule - Activity tracking framework module loaded. 
+09:59:33.928 INFO  t.s.s.SpringSecurityModule - Instantiating twigkit.security.springsecurity.provider.SpringSecurityProvider 
+09:59:33.929 INFO  t.s.s.SpringSecurityModule - Spring Security Module loaded! 
+09:59:33.933 INFO  t.s.fusion.FusionSessionModule - Fusion Session Module loaded! 
+09:59:33.934 INFO  t.s.s.SpringSecurityModule - Instantiating twigkit.security.springsecurity.provider.SpringSecurityProvider 
+09:59:33.934 INFO  t.s.s.SpringSecurityModule - Spring Security Module loaded! 
+09:59:33.942 INFO  twigkit.security.SecurityModule - Text encryptor instantiated 
+09:59:33.946 INFO  twigkit.security.SecurityModule - DomainMappingFilter disabled 
+09:59:33.947 INFO  twigkit.security.SecurityModule - UserMappingFilter disabled 
+09:59:33.947 INFO  twigkit.security.SecurityModule - twigkit.security.filter.UserToGroupMappingFilter disabled 
+09:59:33.948 INFO  t.s.SecurityFilterExecutionModule - Registering Authentication Filters... 
+09:59:33.949 INFO  t.s.SecurityFilterExecutionModule - Registering Authorisation Filters... 
+09:59:33.951 INFO  twigkit.security.SecurityModule - Security Module loaded! 
+09:59:33.955 INFO  t.m.s.f.FusionSignalsMessageProducerModule - Fusion message producer module loaded 
+09:59:33.956 INFO  t.app.inspection.AppInspectionModule - Application inspection module loaded 
+09:59:33.957 INFO  twigkit.insights.InsightsModule - Insights Module loaded! 
+09:59:33.967 INFO  twigkit.search.fusion.FusionModule - Fusion Platform Module loaded! 
+09:59:33.969 INFO  twigkit.search.solr.SolrModule - Solr Platform Module loaded! 
+09:59:33.971 INFO  twigkit.ui.jsp.JSPModule - Deploying TwigKitServlets... 
+09:59:33.977 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/query-suggestion-service/* -> JSONQuerySuggestionServiceServlet 
+09:59:33.978 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/platform/rss/* -> RSSSearchServiceServlet 
+09:59:33.980 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/proxy -> ProxyServlet 
+09:59:33.981 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/url -> RedirectServlet 
+09:59:33.982 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/activity/click -> ClickTrackingService 
+09:59:33.984 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/redirect/* -> RedirectServlet 
+09:59:33.986 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/migrate/* -> MigrationServlet 
+09:59:33.998 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/media/export/excel/* -> ExcelExportServlet 
+09:59:34.000 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/media/export/csv/* -> CSVExportServlet 
+09:59:34.002 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/media/export/offline/csv/* -> OfflineCSVExportServlet 
+09:59:34.002 INFO  twigkit.ui.jsp.JSPModule - Deploying SecureTwigKitServlets... 
+09:59:34.004 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/secure/services/url -> RedirectServlet 
+09:59:34.004 INFO  twigkit.ui.jsp.JSPModule - JSP Module loaded! 
+09:59:34.007 INFO  twigkit.http.HttpModule - CORS support enabled 
+09:59:34.007 INFO  twigkit.http.HttpModule - > cors.supportedMethods: GET, POST, DELETE, HEAD 
+09:59:34.007 INFO  twigkit.http.HttpModule - > cors.allowOrigin: * 
+09:59:34.008 INFO  twigkit.http.HttpModule - Not removing whitespace from HTML as per twigkit.properties [ui.jsp.trimWhiteSpace] 
+09:59:34.009 INFO  twigkit.http.HttpModule - Http Module loaded! 
+09:59:34.097 INFO  twigkit.cache.CacheModule - Cache Module loaded! 
+09:59:34.099 DEBUG t.c.reload.ConfigurationReloadModule - Registering application configuration with configuration watcher ... 
+09:59:34.105 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/ 
+09:59:34.108 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/activity/ 
+09:59:34.108 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/activity/tracking/ 
+09:59:34.109 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/message/ 
+09:59:34.109 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/message/service/ 
+09:59:34.110 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/platforms/ 
+09:59:34.110 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/platforms/fusion/ 
+09:59:34.111 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/platforms/solr/ 
+09:59:34.111 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/processors/ 
+09:59:34.112 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/processors/response/ 
+09:59:34.112 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/security/ 
+09:59:34.113 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/ 
+09:59:34.113 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/api/ 
+09:59:34.145 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/content/ 
+09:59:34.145 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/publish/ 
+09:59:34.146 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/suggestions/ 
+09:59:34.148 INFO  t.c.reload.ConfigurationReloadModule - Configuration Reload Module loaded! 
+09:59:34.150 INFO  t.license.LicenseRestrictionsModule - License Restrictions Module loaded! 
+09:59:34.162 INFO  twigkit.service.WebServicesModule - Web Services Module loaded! 
+09:59:34.165 INFO  twigkit.processor.WorkflowModule - Binding Processor classes... 
+09:59:34.167 INFO  twigkit.processor.WorkflowModule - > twigkit.search.solr.processors.SolrDateRangeFacetQueries 
+09:59:34.169 INFO  twigkit.processor.WorkflowModule - > twigkit.search.solr.processors.SolrDateRangeFacetResponse 
+09:59:34.170 INFO  twigkit.processor.WorkflowModule - > twigkit.security.processor.AddFilterProcessor 
+09:59:34.172 INFO  twigkit.processor.WorkflowModule - > twigkit.security.processor.AddRolesFilterProcessor 
+09:59:34.172 INFO  twigkit.processor.WorkflowModule - > twigkit.security.processor.RoleLocalizer 
+09:59:34.173 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.query.AddFilterProcessor 
+09:59:34.174 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.query.CompositeFieldProcessor 
+09:59:34.196 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.query.ReplaceFilterValue 
+09:59:34.197 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.CopyFacetProcessor 
+09:59:34.199 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.CopyFieldProcessor 
+09:59:34.200 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.CreateFacetProcessor 
+09:59:34.202 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.DateFacetValueFormatter 
+09:59:34.203 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.DatePartExtractor 
+09:59:34.204 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.DateRangeFacetProcessor 
+09:59:34.205 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetFilterSortByCount 
+09:59:34.222 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetFilterSortByValue 
+09:59:34.223 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetFilterValueMappingProcessor 
+09:59:34.224 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetParameterProcessor 
+09:59:34.225 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetSortProcessor 
+09:59:34.225 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FieldDateParser 
+09:59:34.226 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FieldToMultiValueFieldProcessor 
+09:59:34.227 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.HostNameExtractor 
+09:59:34.228 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.LinkMarkupProcessor 
+09:59:34.229 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.RegExFieldValueTaggerProcessor 
+09:59:34.246 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.RemoveFacetFiltersByRegex 
+09:59:34.247 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.RemoveFacetsProcessor 
+09:59:34.248 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ReplaceFieldValue 
+09:59:34.250 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ReplaceFilterValue 
+09:59:34.251 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ResponseLoggingProcessor 
+09:59:34.252 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ResultGroupProcessor 
+09:59:34.253 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ShallowFacetGenerator 
+09:59:34.254 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ShallowHierarchicalFacetProcessor 
+09:59:34.255 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.TweetMarkupProcessor 
+09:59:34.255 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FieldValueParser 
+09:59:34.256 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetSequenceHierarchy 
+09:59:34.257 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.LocaliseValues 
+09:59:34.258 INFO  twigkit.processor.WorkflowModule - Done binding Processor classes! 
+09:59:34.260 INFO  twigkit.processor.WorkflowModule - Processor Module loaded! 
+09:59:34.597 INFO  twigkit.media.MediaModule - Supported image formats: 
+09:59:34.598 INFO  twigkit.media.MediaModule - 	- JPG 
+09:59:34.599 INFO  twigkit.media.MediaModule - 	- JPEG 2000 
+09:59:34.599 INFO  twigkit.media.MediaModule - 	- tiff 
+09:59:34.599 INFO  twigkit.media.MediaModule - 	- bmp 
+09:59:34.599 INFO  twigkit.media.MediaModule - 	- gif 
+09:59:34.599 INFO  twigkit.media.MediaModule - 	- WBMP 
+09:59:34.600 INFO  twigkit.media.MediaModule - 	- PNG 
+09:59:34.600 INFO  twigkit.media.MediaModule - 	- RAW 
+09:59:34.600 INFO  twigkit.media.MediaModule - 	- JPEG 
+09:59:34.600 INFO  twigkit.media.MediaModule - 	- btiff 
+09:59:34.600 INFO  twigkit.media.MediaModule - 	- PNM 
+09:59:34.600 INFO  twigkit.media.MediaModule - 	- tif 
+09:59:34.601 INFO  twigkit.media.MediaModule - 	- TIFF 
+09:59:34.601 INFO  twigkit.media.MediaModule - 	- jpeg 
+09:59:34.601 INFO  twigkit.media.MediaModule - 	- wbmp 
+09:59:34.601 INFO  twigkit.media.MediaModule - 	- jpg 
+09:59:34.601 INFO  twigkit.media.MediaModule - 	- JPEG2000 
+09:59:34.601 INFO  twigkit.media.MediaModule - 	- BMP 
+09:59:34.601 INFO  twigkit.media.MediaModule - 	- GIF 
+09:59:34.602 INFO  twigkit.media.MediaModule - 	- png 
+09:59:34.602 INFO  twigkit.media.MediaModule - 	- raw 
+09:59:34.602 INFO  twigkit.media.MediaModule - 	- pnm 
+09:59:34.602 INFO  twigkit.media.MediaModule - 	- TIF 
+09:59:34.602 INFO  twigkit.media.MediaModule - 	- jpeg2000 
+09:59:34.602 INFO  twigkit.media.MediaModule - 	- jpeg 2000 
+09:59:34.603 INFO  twigkit.media.MediaModule - 	- BTIFF 
+09:59:34.603 INFO  twigkit.media.MediaModule - Media Module loaded! 
+09:59:34.608 DEBUG twigkit.ui.js.wro4j.WroConfiguration - In DEVELOPMENT mode - registering a 5 second resource watcher interval 
+09:59:34.609 INFO  twigkit.ui.js.Wro4jModule - Wro4j Module loaded! 
+09:59:34.610 INFO  twigkit.Start - All TwigKitModules loaded! 
+09:59:34.611 INFO  twigkit.InitializerModule - TwigKit Module loaded! 
+09:59:35.602 DEBUG t.f.api.session.FusionSessionStore - Initialising Fusion session store. Each session will last for 28799000 milliseconds unless the session times out due to a prolonged period of inactivity. 
+09:59:35.608 INFO  twigkit.TwigKitApplication - App Studio Guice Injector ready! 
+09:59:35.608 INFO  twigkit.Start - Notifying all modules that injector is ready 
+09:59:35.610 INFO  twigkit.TwigKitApplication -  
+09:59:35.611 INFO  twigkit.TwigKitApplication - Host: Sanket’s-MacBook-Pro 
+09:59:35.611 INFO  twigkit.TwigKitApplication -  
+09:59:35.624 INFO  twigkit.TwigKitApplication - License VALID until Wed Dec 30 23:00:00 CST 2020 
+09:59:35.625 INFO  twigkit.TwigKitApplication - Licensed host: * 
+09:59:35.625 INFO  twigkit.TwigKitApplication - Licensed email address: sang.wang@lucidworks.com 
+09:59:35.625 INFO  twigkit.TwigKitApplication - Licensed modules: 
+09:59:35.628 INFO  twigkit.TwigKitApplication - > fusion(scope: unlimited) 
+09:59:35.628 INFO  twigkit.TwigKitApplication - > environment(scope: [Ljava.lang.String;@5e1d3188) 
+09:59:35.628 INFO  twigkit.TwigKitApplication - > fusion.connectors(scope: unlimited) 
+09:59:35.628 INFO  twigkit.TwigKitApplication - > fusion.server(scope: unlimited) 
+09:59:35.628 INFO  twigkit.TwigKitApplication - > security(scope: unlimited) 
+09:59:35.644 INFO  twigkit.TwigKitApplication - > webservices(scope: unlimited) 
+09:59:35.645 INFO  twigkit.TwigKitApplication - > workflow(scope: unlimited) 
+09:59:35.645 INFO  twigkit.TwigKitApplication - > solr(scope: unlimited) 
+09:59:35.645 INFO  twigkit.TwigKitApplication - > organisation(scope: [Ljava.lang.String;@5982255e) 
+09:59:35.645 INFO  twigkit.TwigKitApplication - > media(scope: unlimited) 
+09:59:35.646 INFO  twigkit.TwigKitApplication - > user(scope: [Ljava.lang.String;@7306836f) 
+09:59:35.646 INFO  twigkit.TwigKitApplication -  
+09:59:35.659 INFO  t.s.SecurityFilterExecutionModule - Initialising SecurityFilters... 
+09:59:35.660 INFO  t.s.SecurityFilterExecutionModule - > AuthorisationFilter  [FusionAuthorisationFilter] initialised! 
+09:59:35.660 ERROR t.f.a.auth.AuthenticationRouterImpl - User has enabled impersonation via a service account but the service account credentials are incomplete. 
+09:59:35.668 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.click] 
+09:59:35.671 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.request] 
+09:59:35.677 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.login] 
+09:59:35.686 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.annotation] 
+09:59:35.720 DEBUG twigkit.ui.js.wro4j.WroConfiguration - In DEVELOPMENT mode - registering a 5 second resource watcher interval 
+09:59:35.838 WARN  t.m.servlet.OfflineCSVExportServlet - No configuration found for offline export under services/media/export/offline. Default settings used. 
+09:59:35.839 INFO  t.m.servlet.OfflineCSVExportServlet - Initialised offline export servlet with the following properties: 
+09:59:35.839 INFO  t.m.servlet.OfflineCSVExportServlet - 	- folder: offline-exports 
+09:59:35.839 INFO  t.m.servlet.OfflineCSVExportServlet - 	- compress: false 
+09:59:35.839 INFO  t.m.servlet.OfflineCSVExportServlet - 	- temp folder: /var/folders/3h/7jwpt2gd69n0r04xgbt7r9zr0000gn/T 
+09:59:35.839 INFO  t.m.servlet.OfflineCSVExportServlet - 	- redirect path: /export-in-progress/ 
+09:59:36.614 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService offline path: /tmp/twigkit/offline 
+09:59:36.618 DEBUG twigkit.frame.CachedImageIOService - Creating cache from defaults! 
+09:59:36.698 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService offline path: /tmp/twigkit/offline 
+09:59:54.112 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Received event twigkit.conf.event.ConfigurationModified@34994347 
+09:59:54.113 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Path to source config : /Users/brianland/Documents/git/te/app/src/main/resources/conf/security/security.conf 
+09:59:54.113 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Path to target config : /Users/brianland/Documents/git/te/app/target/classes/conf/security/security.conf 
+09:59:54.113 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Configuration change event received: class twigkit.conf.event.ConfigurationModified on /Users/brianland/Documents/git/te/app/target/classes/conf/security/security.conf 
+09:59:54.118 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Updated /Users/brianland/Documents/git/te/app/src/main/resources/conf/security/security.conf 
+09:59:54.142 DEBUG t.c.e.AbstractConfigurationChangedSubscriber - Reloading configuration tree. 
+09:59:54.151 DEBUG t.s.fusion.FusionAuthorisationFilter - Fig hierarchy reloaded - resetting Fusion security provider settings 
+09:59:54.151 DEBUG t.s.fusion.FusionAuthenticator - Fig hierarchy reloaded - resetting Fusion security provider settings 
+09:59:54.152 DEBUG t.c.e.AbstractConfigurationChangedSubscriber - Configuration tree successfully reloaded. 
+09:59:54.152 DEBUG t.conf.AbstractConfigurationProvider - Fig hierarchy reloaded class twigkit.conf.event.FigReloadedEvent - resetting provider registry for class twigkit.conf.ConfiguredServiceProvider 
+09:59:54.152 DEBUG t.conf.AbstractConfigurationProvider - Fig hierarchy reloaded class twigkit.conf.event.FigReloadedEvent - resetting provider registry for class twigkit.platform.conf.ConfiguredWorkflowPlatformProvider 
+09:59:54.152 DEBUG t.m.s.f.FusionSignalsMessageProducer - Fig hierarchy reloaded - resetting Fusion message producer settings 
+09:59:54.153 ERROR t.f.a.auth.AuthenticationRouterImpl - User has enabled impersonation via a service account but the service account credentials are incomplete. 
+10:00:33.714 DEBUG t.license.LicenseMonitor$ExpiryCheck - Scheduling new license expiry notification with HOURLY frequency 
+10:00:33.718 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+10:00:34.137 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Received event twigkit.conf.event.ConfigurationModified@66b097ce 
+10:00:34.138 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Path to source config : /Users/brianland/Documents/git/te/app/src/main/resources/conf/services/api/fusion.conf 
+10:00:34.138 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Path to target config : /Users/brianland/Documents/git/te/app/target/classes/conf/services/api/fusion.conf 
+10:00:34.139 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Configuration change event received: class twigkit.conf.event.ConfigurationModified on /Users/brianland/Documents/git/te/app/target/classes/conf/services/api/fusion.conf 
+10:00:34.139 DEBUG t.c.e.LocalDevelopmentConfigurationChangedSubscriber - Updated /Users/brianland/Documents/git/te/app/src/main/resources/conf/services/api/fusion.conf 
+10:00:34.140 DEBUG t.c.e.AbstractConfigurationChangedSubscriber - Reloading configuration tree. 
+10:00:34.149 DEBUG t.c.e.AbstractConfigurationChangedSubscriber - Configuration tree successfully reloaded. 
+10:00:34.149 DEBUG t.conf.AbstractConfigurationProvider - Fig hierarchy reloaded class twigkit.conf.event.FigReloadedEvent - resetting provider registry for class twigkit.conf.ConfiguredServiceProvider 
+10:00:34.149 DEBUG t.m.s.f.FusionSignalsMessageProducer - Fig hierarchy reloaded - resetting Fusion message producer settings 
+10:00:34.149 DEBUG t.conf.AbstractConfigurationProvider - Fig hierarchy reloaded class twigkit.conf.event.FigReloadedEvent - resetting provider registry for class twigkit.platform.conf.ConfiguredWorkflowPlatformProvider 
+10:00:34.149 DEBUG t.s.fusion.FusionAuthenticator - Fig hierarchy reloaded - resetting Fusion security provider settings 
+10:00:34.149 DEBUG t.s.fusion.FusionAuthorisationFilter - Fig hierarchy reloaded - resetting Fusion security provider settings 
+10:00:39.166 INFO  twigkit.TwigKitApplication - Shutting down... 
+10:00:39.167 DEBUG twigkit.cache.CacheModule - Shutting down Cachalot cache manager 
+10:00:39.173 DEBUG t.c.platform.PlatformCacheProvider - Creating new PlatformCacheProvider 
+10:00:39.176 INFO  t.driver.DriverRegistrationModule - De-registering JDBC driver org.apache.solr.client.solrj.io.sql.DriverImpl@64726c09 
+10:00:39.177 DEBUG t.conf.reload.ConfigurationWatcher - Closing configuration watcher service. 
+10:00:39.177 INFO  twigkit.processor.WorkflowModule - Shutting down... 
+10:00:39.178 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService offline path: /tmp/twigkit/offline 
+10:00:39.180 DEBUG twigkit.frame.CachedImageIOService - Shutting down cache manager for cache frame-cache 
+10:00:39.184 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.stream.ChannelImageInputStreamSpi 
+10:00:39.184 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+10:00:39.184 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.stream.ChannelImageOutputStreamSpi 
+10:00:39.185 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+10:00:39.185 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class it.geosolutions.imageioimpl.plugins.tiff.TIFFImageReaderSpi 
+10:00:39.185 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.wbmp.WBMPImageReaderSpi 
+10:00:39.185 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.twelvemonkeys.imageio.plugins.jpeg.JPEGImageReaderSpi 
+10:00:39.185 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.raw.RawImageReaderSpi 
+10:00:39.185 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.tiff.TIFFImageReaderSpi 
+10:00:39.185 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageReaderSpi 
+10:00:39.185 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.bmp.BMPImageReaderSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.pnm.PNMImageReaderSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class it.geosolutions.imageioimpl.plugins.tiff.TIFFImageWriterSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.wbmp.WBMPImageWriterSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.tiff.TIFFImageWriterSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.gif.GIFImageWriterSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.pnm.PNMImageWriterSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.jpeg2000.J2KImageWriterSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.bmp.BMPImageWriterSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.twelvemonkeys.imageio.plugins.jpeg.JPEGImageWriterSpi 
+10:00:39.186 INFO  twigkit.media.MediaModule - Unregistered locally installed provider: class com.sun.media.imageioimpl.plugins.raw.RawImageWriterSpi 
+10:00:39.187 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+10:00:39.187 INFO  twigkit.media.MediaModule - Media Module shutdown complete. 
+10:01:59.744 INFO  twigkit.TwigKitApplication -  
+10:01:59.749 INFO  twigkit.TwigKitApplication -                                                              
+10:01:59.749 INFO  twigkit.TwigKitApplication -  ████╗ █████╗ █████╗   █████╗██████╗██╗ ██╗█████╗ ██╗ ████╗  
+10:01:59.750 INFO  twigkit.TwigKitApplication - ██╔═██╗██╔═██╗██╔═██╗  ██╔══╝╚═██╔═╝██║ ██║██╔═██╗██║██╔═██╗ 
+10:01:59.750 INFO  twigkit.TwigKitApplication - ██████║█████╔╝█████╔╝  █████╗  ██║  ██║ ██║██║ ██║██║██║ ██║ 
+10:01:59.750 INFO  twigkit.TwigKitApplication - ██╔═██║██╔══╝ ██╔══╝   ╚══██║  ██║  ██║ ██║██║ ██║██║██║ ██║ 
+10:01:59.750 INFO  twigkit.TwigKitApplication - ██║ ██║██║    ██║      █████║  ██║  ╚████╔╝█████╔╝██║╚████╔╝ 
+10:01:59.751 INFO  twigkit.TwigKitApplication - ╚═╝ ╚═╝╚═╝    ╚═╝      ╚════╝  ╚═╝   ╚═══╝ ╚════╝ ╚═╝ ╚═══╝  
+10:01:59.751 INFO  twigkit.TwigKitApplication -                                                              
+10:01:59.751 INFO  twigkit.TwigKitApplication -                     Lovingly crafted in 
+10:01:59.751 INFO  twigkit.TwigKitApplication -                          Cambridge 
+10:01:59.752 INFO  twigkit.TwigKitApplication -  
+10:01:59.752 INFO  twigkit.TwigKitApplication -  
+10:01:59.756 INFO  twigkit.TwigKitApplication -      App Studio is starting in DEVELOPMENT mode... 
+10:01:59.758 INFO  twigkit.TwigKitApplication -  
+10:01:59.758 INFO  twigkit.TwigKitApplication -  
+10:01:59.758 INFO  twigkit.TwigKitApplication - Built with Appkit version 4.1.1 
+10:01:59.758 INFO  twigkit.TwigKitApplication -  
+10:01:59.857 INFO  twigkit.fig.visitor.ConfigLogger - APP 
+10:01:59.857 INFO  twigkit.fig.visitor.ConfigLogger -   |-- markup = false 
+10:01:59.858 INFO  twigkit.fig.visitor.ConfigLogger -   |-- initialised = true 
+10:01:59.858 INFO  twigkit.fig.visitor.ConfigLogger - CORS 
+10:01:59.858 INFO  twigkit.fig.visitor.ConfigLogger -   |-- cors.supportedMethods = GET, POST, DELETE, HEAD 
+10:01:59.858 INFO  twigkit.fig.visitor.ConfigLogger -   |-- cors.allowOrigin = * 
+10:01:59.858 INFO  twigkit.fig.visitor.ConfigLogger - TWIGKIT 
+10:01:59.859 INFO  twigkit.fig.visitor.ConfigLogger -   |-- ui.trim-white-space = false 
+10:01:59.859 INFO  twigkit.fig.visitor.ConfigLogger -   |-- license-file = /twigkit.lic 
+10:01:59.859 INFO  twigkit.fig.visitor.ConfigLogger - ACTIVITY 
+10:01:59.859 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.859 INFO  twigkit.fig.visitor.ConfigLogger -   +-- TRACKING 
+10:01:59.860 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.860 INFO  twigkit.fig.visitor.ConfigLogger -         +-- TRACKER 
+10:01:59.860 INFO  twigkit.fig.visitor.ConfigLogger -               |-- events = click,request,login,annotation 
+10:01:59.860 INFO  twigkit.fig.visitor.ConfigLogger - MESSAGE 
+10:01:59.860 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.860 INFO  twigkit.fig.visitor.ConfigLogger -   +-- SERVICE 
+10:01:59.861 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.861 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FUSION 
+10:01:59.861 INFO  twigkit.fig.visitor.ConfigLogger -               |-- query-profile = teconnect 
+10:01:59.861 INFO  twigkit.fig.visitor.ConfigLogger - PLATFORMS 
+10:01:59.861 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.861 INFO  twigkit.fig.visitor.ConfigLogger -   +-- FUSION 
+10:01:59.862 INFO  twigkit.fig.visitor.ConfigLogger -         |-- highlight = true 
+10:01:59.862 INFO  twigkit.fig.visitor.ConfigLogger -         |-- backwardsCompatible = true 
+10:01:59.862 INFO  twigkit.fig.visitor.ConfigLogger -         |-- name = twigkit.search.fusion.Fusion 
+10:01:59.862 INFO  twigkit.fig.visitor.ConfigLogger -         |-- resultIDField = id 
+10:01:59.862 INFO  twigkit.fig.visitor.ConfigLogger -         |-- defaultQuery = *:* 
+10:01:59.862 INFO  twigkit.fig.visitor.ConfigLogger -         |-- timeOut = 30000 
+10:01:59.863 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.863 INFO  twigkit.fig.visitor.ConfigLogger -         +-- DATA 
+10:01:59.863 INFO  twigkit.fig.visitor.ConfigLogger -               |-- highlight = true 
+10:01:59.863 INFO  twigkit.fig.visitor.ConfigLogger -               |-- backwardsCompatible = true 
+10:01:59.863 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.search.fusion.Fusion 
+10:01:59.864 INFO  twigkit.fig.visitor.ConfigLogger -               |-- resultIDField = id 
+10:01:59.864 INFO  twigkit.fig.visitor.ConfigLogger -               |-- defaultQuery = *:* 
+10:01:59.864 INFO  twigkit.fig.visitor.ConfigLogger -               |-- timeOut = 30000 
+10:01:59.864 INFO  twigkit.fig.visitor.ConfigLogger -               |-- defaultFacets = marketingBrandName_s,partTypeName_s,popc_s,tooling_s,Product_Type_s,elvComplianceCode_s,elvRohsComplianceCode_s 
+10:01:59.864 INFO  twigkit.fig.visitor.ConfigLogger -               |-- fusion-app = teconnect 
+10:01:59.864 INFO  twigkit.fig.visitor.ConfigLogger -               |-- query-profile = teconnect 
+10:01:59.865 INFO  twigkit.fig.visitor.ConfigLogger -               |-- application-title = TE-Connect 
+10:01:59.865 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.865 INFO  twigkit.fig.visitor.ConfigLogger -         +-- PEOPLE 
+10:01:59.865 INFO  twigkit.fig.visitor.ConfigLogger -               |-- highlight = true 
+10:01:59.865 INFO  twigkit.fig.visitor.ConfigLogger -               |-- backwardsCompatible = true 
+10:01:59.866 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.search.fusion.Fusion 
+10:01:59.866 INFO  twigkit.fig.visitor.ConfigLogger -               |-- resultIDField = id 
+10:01:59.866 INFO  twigkit.fig.visitor.ConfigLogger -               |-- defaultQuery = *:* 
+10:01:59.866 INFO  twigkit.fig.visitor.ConfigLogger -               |-- timeOut = 30000 
+10:01:59.866 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.866 INFO  twigkit.fig.visitor.ConfigLogger -   +-- SOLR 
+10:01:59.867 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.867 INFO  twigkit.fig.visitor.ConfigLogger -         +-- DATA 
+10:01:59.867 INFO  twigkit.fig.visitor.ConfigLogger -               |-- host = YOUR_HOST 
+10:01:59.867 INFO  twigkit.fig.visitor.ConfigLogger -               |-- requestHandler = YOUR_REQUEST_HANDLER 
+10:01:59.867 INFO  twigkit.fig.visitor.ConfigLogger -               |-- collection = YOUR_COLLECTION 
+10:01:59.867 INFO  twigkit.fig.visitor.ConfigLogger -               |-- port = 8983 
+10:01:59.868 INFO  twigkit.fig.visitor.ConfigLogger - PROCESSORS 
+10:01:59.868 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.868 INFO  twigkit.fig.visitor.ConfigLogger -   +-- RESPONSE 
+10:01:59.868 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.869 INFO  twigkit.fig.visitor.ConfigLogger -         +-- DATE-FORMAT 
+10:01:59.869 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.client.processor.response.DateFormatProcessor 
+10:01:59.870 INFO  twigkit.fig.visitor.ConfigLogger -               |-- fields = Date 
+10:01:59.870 INFO  twigkit.fig.visitor.ConfigLogger -               |-- values = display 
+10:01:59.873 INFO  twigkit.fig.visitor.ConfigLogger - SECURITY 
+10:01:59.875 INFO  twigkit.fig.visitor.ConfigLogger -   |-- password = password123 
+10:01:59.876 INFO  twigkit.fig.visitor.ConfigLogger -   |-- type = spring_security 
+10:01:59.877 INFO  twigkit.fig.visitor.ConfigLogger -   |-- webservice-enabled = true 
+10:01:59.877 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.878 INFO  twigkit.fig.visitor.ConfigLogger -   +-- FUSION 
+10:01:59.878 INFO  twigkit.fig.visitor.ConfigLogger -         |-- password = password123 
+10:01:59.878 INFO  twigkit.fig.visitor.ConfigLogger -         |-- type = spring_security 
+10:01:59.879 INFO  twigkit.fig.visitor.ConfigLogger -         |-- webservice-enabled = true 
+10:01:59.879 INFO  twigkit.fig.visitor.ConfigLogger -         |-- session-timeout = 10 
+10:01:59.879 INFO  twigkit.fig.visitor.ConfigLogger -         |-- realm = native 
+10:01:59.879 INFO  twigkit.fig.visitor.ConfigLogger - SERVICES 
+10:01:59.880 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.880 INFO  twigkit.fig.visitor.ConfigLogger -   +-- API 
+10:01:59.880 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.880 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FUSION 
+10:01:59.881 INFO  twigkit.fig.visitor.ConfigLogger -               |-- host = 35.160.52.94 
+10:01:59.881 INFO  twigkit.fig.visitor.ConfigLogger -               |-- password = password123 
+10:01:59.881 INFO  twigkit.fig.visitor.ConfigLogger -               |-- impersonate = true 
+10:01:59.881 INFO  twigkit.fig.visitor.ConfigLogger -               |-- userName = admin 
+10:01:59.882 INFO  twigkit.fig.visitor.ConfigLogger -               |-- port = 8764 
+10:01:59.882 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.882 INFO  twigkit.fig.visitor.ConfigLogger -   +-- CONTENT 
+10:01:59.883 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.883 INFO  twigkit.fig.visitor.ConfigLogger -         +-- CONFIG 
+10:01:59.883 INFO  twigkit.fig.visitor.ConfigLogger -               |-- base = config 
+10:01:59.883 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.884 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FILE 
+10:01:59.884 INFO  twigkit.fig.visitor.ConfigLogger -               |-- base = app 
+10:01:59.884 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.884 INFO  twigkit.fig.visitor.ConfigLogger -   +-- PUBLISH 
+10:01:59.885 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.885 INFO  twigkit.fig.visitor.ConfigLogger -         +-- FUSION 
+10:01:59.886 INFO  twigkit.fig.visitor.ConfigLogger -               |-- maven-war-file = app-studio 
+10:01:59.887 INFO  twigkit.fig.visitor.ConfigLogger -   | 
+10:01:59.888 INFO  twigkit.fig.visitor.ConfigLogger -   +-- SUGGESTIONS 
+10:01:59.888 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.888 INFO  twigkit.fig.visitor.ConfigLogger -         +-- STATIC 
+10:01:59.888 INFO  twigkit.fig.visitor.ConfigLogger -               |-- numberOfSuggestions 
+10:01:59.889 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name 
+10:01:59.889 INFO  twigkit.fig.visitor.ConfigLogger -               |-- host 
+10:01:59.889 INFO  twigkit.fig.visitor.ConfigLogger -         | 
+10:01:59.890 INFO  twigkit.fig.visitor.ConfigLogger -         +-- TERMS 
+10:01:59.890 INFO  twigkit.fig.visitor.ConfigLogger -               |-- name = twigkit.search.solr.suggestions.SolrQueryTermsService 
+10:01:59.890 INFO  twigkit.fig.visitor.ConfigLogger -               |-- term-fields = title 
+10:01:59.890 INFO  twigkit.fig.visitor.ConfigLogger -               |-- source = platforms.fusion 
+10:01:59.891 INFO  twigkit.fig.visitor.ConfigLogger -               |-- title 
+10:01:59.898 INFO  twigkit.InitializerModule - Binding application-wide event bus 
+10:01:59.899 INFO  t.license.AbstractLicenseManager - Initialising license expiry check monitor 
+10:01:59.901 INFO  twigkit.license.PLM - Searching classpath for license file with name /twigkit.lic 
+10:01:59.902 INFO  twigkit.license.PLM - Looking for license file /Users/brianland/twigkit.lic in user's home directory 
+10:01:59.905 INFO  twigkit.license.PLM - Using license file /Users/brianland/twigkit.lic 
+10:01:59.935 INFO  twigkit.service.ServiceLoaderModule - Loading and binding TwigKit Services... 
+10:02:00.204 DEBUG t.ui.jsp.service.RSSSearchService - Supported feed types: rss_0.91U, rss_1.0, rss_2.0, rss_0.93, rss_0.92, rss_0.94, rss_0.91N, rss_0.9, atom_0.3, atom_1.0 
+10:02:00.204 INFO  twigkit.service.ServiceLoaderModule - > twigkit.ui.jsp.service.RSSSearchService 
+10:02:00.207 INFO  twigkit.service.ServiceLoaderModule - > twigkit.service.StaticQuerySuggestionService 
+10:02:00.208 INFO  twigkit.service.ServiceLoaderModule - > twigkit.service.FieldSearchQuerySuggestionService 
+10:02:00.209 INFO  twigkit.service.ServiceLoaderModule - > twigkit.service.FacetSearchQuerySuggestionService 
+10:02:00.210 INFO  twigkit.service.ServiceLoaderModule - Done loading and binding TwigKit Services! 
+10:02:00.210 INFO  twigkit.service.ServiceLoaderModule - Binding TwigKit Service configurations... 
+10:02:00.211 INFO  twigkit.service.ServiceLoaderModule - Done binding TwigKit Platform configurations! 
+10:02:00.215 INFO  t.conf.ConfigurationProviderModule - Binding TwigKit Platform configurations... 
+10:02:00.229 INFO  t.conf.ConfigurationProviderModule - Done binding TwigKit Platform configurations! 
+10:02:00.231 INFO  twigkit.Start - Automatically loading TwigKitModules... 
+10:02:00.243 INFO  twigkit.Start - TwigKitModule Start-up order: 
+10:02:00.244 INFO  twigkit.Start - 1. AppModule (HIGHEST) 
+10:02:00.244 INFO  twigkit.Start - 2. LoggerModule (HIGHEST) 
+10:02:00.244 INFO  twigkit.Start - 3. ActivityTrackerModule (HIGHEST) 
+10:02:00.244 INFO  twigkit.Start - 4. ActivityModule (HIGHEST) 
+10:02:00.245 INFO  twigkit.Start - 5. FusionSessionModule (HIGH) 
+10:02:00.245 INFO  twigkit.Start - 6. SpringSecurityModule (HIGH) 
+10:02:00.245 INFO  twigkit.Start - 7. SecurityModule (HIGH) 
+10:02:00.245 INFO  twigkit.Start - 8. FusionSignalsMessageProducerModule (MEDIUM) 
+10:02:00.245 INFO  twigkit.Start - 9. AppInspectionModule (LOWEST) 
+10:02:00.246 INFO  twigkit.Start - 10. InsightsModule (LOWEST) 
+10:02:00.246 INFO  twigkit.Start - 11. FusionModule (LOWEST) 
+10:02:00.246 INFO  twigkit.Start - 12. SolrModule (LOWEST) 
+10:02:00.246 INFO  twigkit.Start - 13. JSPModule (LOWEST) 
+10:02:00.247 INFO  twigkit.Start - 14. HttpModule (LOWEST) 
+10:02:00.247 INFO  twigkit.Start - 15. CacheModule (LOWEST) 
+10:02:00.247 INFO  twigkit.Start - 16. RecordingModule (LOWEST) 
+10:02:00.247 INFO  twigkit.Start - 17. DriverRegistrationModule (LOWEST) 
+10:02:00.247 INFO  twigkit.Start - 18. ConfigurationReloadModule (LOWEST) 
+10:02:00.248 INFO  twigkit.Start - 19. LicenseRestrictionsModule (LOWEST) 
+10:02:00.248 INFO  twigkit.Start - 20. WebServicesModule (LOWEST) 
+10:02:00.248 INFO  twigkit.Start - 21. WorkflowModule (LOWEST) 
+10:02:00.248 INFO  twigkit.Start - 22. MediaModule (LOWEST) 
+10:02:00.248 INFO  twigkit.Start - 23. Wro4jModule (LOWEST) 
+10:02:00.249 INFO  twigkit.app.AppModule - Application Module loaded! 
+10:02:00.313 INFO  twigkit.log.LoggerModule - Logger Module loaded! 
+10:02:00.317 INFO  twigkit.activity.ActivityModule - Activity tracker module loaded. All outbound field URLs are intercepted by default. 
+10:02:00.318 INFO  twigkit.activity.ActivityModule - Activity tracking framework module loaded. 
+10:02:00.320 INFO  t.s.s.SpringSecurityModule - Instantiating twigkit.security.springsecurity.provider.SpringSecurityProvider 
+10:02:00.320 INFO  t.s.s.SpringSecurityModule - Spring Security Module loaded! 
+10:02:00.324 INFO  t.s.fusion.FusionSessionModule - Fusion Session Module loaded! 
+10:02:00.325 INFO  t.s.s.SpringSecurityModule - Instantiating twigkit.security.springsecurity.provider.SpringSecurityProvider 
+10:02:00.325 INFO  t.s.s.SpringSecurityModule - Spring Security Module loaded! 
+10:02:00.333 INFO  twigkit.security.SecurityModule - Text encryptor instantiated 
+10:02:00.335 INFO  twigkit.security.SecurityModule - DomainMappingFilter disabled 
+10:02:00.335 INFO  twigkit.security.SecurityModule - UserMappingFilter disabled 
+10:02:00.335 INFO  twigkit.security.SecurityModule - twigkit.security.filter.UserToGroupMappingFilter disabled 
+10:02:00.336 INFO  t.s.SecurityFilterExecutionModule - Registering Authentication Filters... 
+10:02:00.337 INFO  t.s.SecurityFilterExecutionModule - Registering Authorisation Filters... 
+10:02:00.339 INFO  twigkit.security.SecurityModule - Security Module loaded! 
+10:02:00.342 INFO  t.m.s.f.FusionSignalsMessageProducerModule - Fusion message producer module loaded 
+10:02:00.344 INFO  t.app.inspection.AppInspectionModule - Application inspection module loaded 
+10:02:00.345 INFO  twigkit.insights.InsightsModule - Insights Module loaded! 
+10:02:00.355 INFO  twigkit.search.fusion.FusionModule - Fusion Platform Module loaded! 
+10:02:00.358 INFO  twigkit.search.solr.SolrModule - Solr Platform Module loaded! 
+10:02:00.360 INFO  twigkit.ui.jsp.JSPModule - Deploying TwigKitServlets... 
+10:02:00.367 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/query-suggestion-service/* -> JSONQuerySuggestionServiceServlet 
+10:02:00.368 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/platform/rss/* -> RSSSearchServiceServlet 
+10:02:00.370 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/proxy -> ProxyServlet 
+10:02:00.371 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/url -> RedirectServlet 
+10:02:00.372 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/activity/click -> ClickTrackingService 
+10:02:00.373 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/redirect/* -> RedirectServlet 
+10:02:00.375 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/migrate/* -> MigrationServlet 
+10:02:00.377 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/media/export/excel/* -> ExcelExportServlet 
+10:02:00.378 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/media/export/csv/* -> CSVExportServlet 
+10:02:00.380 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/services/media/export/offline/csv/* -> OfflineCSVExportServlet 
+10:02:00.380 INFO  twigkit.ui.jsp.JSPModule - Deploying SecureTwigKitServlets... 
+10:02:00.382 INFO  twigkit.ui.jsp.JSPModule - > /twigkit/secure/services/url -> RedirectServlet 
+10:02:00.382 INFO  twigkit.ui.jsp.JSPModule - JSP Module loaded! 
+10:02:00.384 INFO  twigkit.http.HttpModule - CORS support enabled 
+10:02:00.385 INFO  twigkit.http.HttpModule - > cors.supportedMethods: GET, POST, DELETE, HEAD 
+10:02:00.385 INFO  twigkit.http.HttpModule - > cors.allowOrigin: * 
+10:02:00.386 INFO  twigkit.http.HttpModule - Not removing whitespace from HTML as per twigkit.properties [ui.jsp.trimWhiteSpace] 
+10:02:00.387 INFO  twigkit.http.HttpModule - Http Module loaded! 
+10:02:00.468 INFO  twigkit.cache.CacheModule - Cache Module loaded! 
+10:02:00.470 DEBUG t.c.reload.ConfigurationReloadModule - Registering application configuration with configuration watcher ... 
+10:02:00.473 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/ 
+10:02:00.475 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/activity/ 
+10:02:00.475 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/activity/tracking/ 
+10:02:00.475 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/message/ 
+10:02:00.476 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/message/service/ 
+10:02:00.476 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/platforms/ 
+10:02:00.477 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/platforms/fusion/ 
+10:02:00.477 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/platforms/solr/ 
+10:02:00.478 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/processors/ 
+10:02:00.478 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/processors/response/ 
+10:02:00.479 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/security/ 
+10:02:00.479 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/ 
+10:02:00.480 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/api/ 
+10:02:00.480 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/content/ 
+10:02:00.481 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/publish/ 
+10:02:00.481 DEBUG t.conf.reload.ConfigurationWatcher - Registering path with watcher: file:///Users/brianland/Documents/git/te/app/src/main/resources/conf/services/suggestions/ 
+10:02:00.483 INFO  t.c.reload.ConfigurationReloadModule - Configuration Reload Module loaded! 
+10:02:00.485 INFO  t.license.LicenseRestrictionsModule - License Restrictions Module loaded! 
+10:02:00.497 INFO  twigkit.service.WebServicesModule - Web Services Module loaded! 
+10:02:00.500 INFO  twigkit.processor.WorkflowModule - Binding Processor classes... 
+10:02:00.502 INFO  twigkit.processor.WorkflowModule - > twigkit.search.solr.processors.SolrDateRangeFacetQueries 
+10:02:00.503 INFO  twigkit.processor.WorkflowModule - > twigkit.search.solr.processors.SolrDateRangeFacetResponse 
+10:02:00.505 INFO  twigkit.processor.WorkflowModule - > twigkit.security.processor.AddFilterProcessor 
+10:02:00.506 INFO  twigkit.processor.WorkflowModule - > twigkit.security.processor.AddRolesFilterProcessor 
+10:02:00.506 INFO  twigkit.processor.WorkflowModule - > twigkit.security.processor.RoleLocalizer 
+10:02:00.508 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.query.AddFilterProcessor 
+10:02:00.509 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.query.CompositeFieldProcessor 
+10:02:00.510 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.query.ReplaceFilterValue 
+10:02:00.510 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.CopyFacetProcessor 
+10:02:00.511 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.CopyFieldProcessor 
+10:02:00.512 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.CreateFacetProcessor 
+10:02:00.514 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.DateFacetValueFormatter 
+10:02:00.515 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.DatePartExtractor 
+10:02:00.516 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.DateRangeFacetProcessor 
+10:02:00.517 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetFilterSortByCount 
+10:02:00.534 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetFilterSortByValue 
+10:02:00.535 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetFilterValueMappingProcessor 
+10:02:00.536 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetParameterProcessor 
+10:02:00.537 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetSortProcessor 
+10:02:00.537 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FieldDateParser 
+10:02:00.538 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FieldToMultiValueFieldProcessor 
+10:02:00.539 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.HostNameExtractor 
+10:02:00.540 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.LinkMarkupProcessor 
+10:02:00.541 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.RegExFieldValueTaggerProcessor 
+10:02:00.542 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.RemoveFacetFiltersByRegex 
+10:02:00.543 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.RemoveFacetsProcessor 
+10:02:00.544 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ReplaceFieldValue 
+10:02:00.545 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ReplaceFilterValue 
+10:02:00.546 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ResponseLoggingProcessor 
+10:02:00.547 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ResultGroupProcessor 
+10:02:00.547 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ShallowFacetGenerator 
+10:02:00.548 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.ShallowHierarchicalFacetProcessor 
+10:02:00.549 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.TweetMarkupProcessor 
+10:02:00.549 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FieldValueParser 
+10:02:00.550 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.FacetSequenceHierarchy 
+10:02:00.551 INFO  twigkit.processor.WorkflowModule - > twigkit.search.processors.response.LocaliseValues 
+10:02:00.552 INFO  twigkit.processor.WorkflowModule - Done binding Processor classes! 
+10:02:00.554 INFO  twigkit.processor.WorkflowModule - Processor Module loaded! 
+10:02:00.793 INFO  twigkit.media.MediaModule - Supported image formats: 
+10:02:00.794 INFO  twigkit.media.MediaModule - 	- JPG 
+10:02:00.794 INFO  twigkit.media.MediaModule - 	- JPEG 2000 
+10:02:00.795 INFO  twigkit.media.MediaModule - 	- tiff 
+10:02:00.795 INFO  twigkit.media.MediaModule - 	- bmp 
+10:02:00.795 INFO  twigkit.media.MediaModule - 	- gif 
+10:02:00.795 INFO  twigkit.media.MediaModule - 	- WBMP 
+10:02:00.795 INFO  twigkit.media.MediaModule - 	- PNG 
+10:02:00.795 INFO  twigkit.media.MediaModule - 	- RAW 
+10:02:00.795 INFO  twigkit.media.MediaModule - 	- JPEG 
+10:02:00.796 INFO  twigkit.media.MediaModule - 	- btiff 
+10:02:00.796 INFO  twigkit.media.MediaModule - 	- PNM 
+10:02:00.796 INFO  twigkit.media.MediaModule - 	- tif 
+10:02:00.796 INFO  twigkit.media.MediaModule - 	- TIFF 
+10:02:00.796 INFO  twigkit.media.MediaModule - 	- wbmp 
+10:02:00.796 INFO  twigkit.media.MediaModule - 	- jpeg 
+10:02:00.797 INFO  twigkit.media.MediaModule - 	- jpg 
+10:02:00.797 INFO  twigkit.media.MediaModule - 	- JPEG2000 
+10:02:00.797 INFO  twigkit.media.MediaModule - 	- BMP 
+10:02:00.797 INFO  twigkit.media.MediaModule - 	- GIF 
+10:02:00.797 INFO  twigkit.media.MediaModule - 	- png 
+10:02:00.797 INFO  twigkit.media.MediaModule - 	- raw 
+10:02:00.798 INFO  twigkit.media.MediaModule - 	- pnm 
+10:02:00.798 INFO  twigkit.media.MediaModule - 	- TIF 
+10:02:00.798 INFO  twigkit.media.MediaModule - 	- jpeg2000 
+10:02:00.798 INFO  twigkit.media.MediaModule - 	- jpeg 2000 
+10:02:00.798 INFO  twigkit.media.MediaModule - 	- BTIFF 
+10:02:00.799 INFO  twigkit.media.MediaModule - Media Module loaded! 
+10:02:00.804 DEBUG twigkit.ui.js.wro4j.WroConfiguration - In DEVELOPMENT mode - registering a 5 second resource watcher interval 
+10:02:00.805 INFO  twigkit.ui.js.Wro4jModule - Wro4j Module loaded! 
+10:02:00.806 INFO  twigkit.Start - All TwigKitModules loaded! 
+10:02:00.807 INFO  twigkit.InitializerModule - TwigKit Module loaded! 
+10:02:01.143 DEBUG t.f.api.session.FusionSessionStore - Initialising Fusion session store. Each session will last for 28799000 milliseconds unless the session times out due to a prolonged period of inactivity. 
+10:02:01.149 INFO  twigkit.TwigKitApplication - App Studio Guice Injector ready! 
+10:02:01.149 INFO  twigkit.Start - Notifying all modules that injector is ready 
+10:02:01.151 INFO  twigkit.TwigKitApplication -  
+10:02:01.151 INFO  twigkit.TwigKitApplication - Host: Sanket’s-MacBook-Pro 
+10:02:01.153 INFO  twigkit.TwigKitApplication -  
+10:02:01.169 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.click] 
+10:02:01.174 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.request] 
+10:02:01.174 INFO  twigkit.TwigKitApplication - License VALID until Wed Dec 30 23:00:00 CST 2020 
+10:02:01.174 INFO  twigkit.TwigKitApplication - Licensed host: * 
+10:02:01.174 INFO  twigkit.TwigKitApplication - Licensed email address: sang.wang@lucidworks.com 
+10:02:01.175 INFO  twigkit.TwigKitApplication - Licensed modules: 
+10:02:01.176 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.login] 
+10:02:01.177 INFO  twigkit.TwigKitApplication - > fusion(scope: unlimited) 
+10:02:01.177 INFO  twigkit.TwigKitApplication - > environment(scope: [Ljava.lang.String;@10806dbe) 
+10:02:01.177 INFO  twigkit.TwigKitApplication - > fusion.connectors(scope: unlimited) 
+10:02:01.178 INFO  twigkit.TwigKitApplication - > fusion.server(scope: unlimited) 
+10:02:01.178 INFO  twigkit.TwigKitApplication - > webservices(scope: unlimited) 
+10:02:01.178 INFO  twigkit.TwigKitApplication - > security(scope: unlimited) 
+10:02:01.178 INFO  twigkit.TwigKitApplication - > workflow(scope: unlimited) 
+10:02:01.179 WARN  t.conf.AbstractConfigurationProvider - Class not found for [activity.signal.processing.annotation] 
+10:02:01.179 INFO  twigkit.TwigKitApplication - > solr(scope: unlimited) 
+10:02:01.179 INFO  twigkit.TwigKitApplication - > organisation(scope: [Ljava.lang.String;@4c5d1649) 
+10:02:01.179 INFO  twigkit.TwigKitApplication - > media(scope: unlimited) 
+10:02:01.180 INFO  twigkit.TwigKitApplication - > user(scope: [Ljava.lang.String;@1695f7cb) 
+10:02:01.180 INFO  twigkit.TwigKitApplication -  
+10:02:01.192 INFO  t.s.SecurityFilterExecutionModule - Initialising SecurityFilters... 
+10:02:01.192 INFO  t.s.SecurityFilterExecutionModule - > AuthorisationFilter  [FusionAuthorisationFilter] initialised! 
+10:02:01.243 DEBUG twigkit.ui.js.wro4j.WroConfiguration - In DEVELOPMENT mode - registering a 5 second resource watcher interval 
+10:02:01.351 WARN  t.m.servlet.OfflineCSVExportServlet - No configuration found for offline export under services/media/export/offline. Default settings used. 
+10:02:01.351 INFO  t.m.servlet.OfflineCSVExportServlet - Initialised offline export servlet with the following properties: 
+10:02:01.352 INFO  t.m.servlet.OfflineCSVExportServlet - 	- folder: offline-exports 
+10:02:01.352 INFO  t.m.servlet.OfflineCSVExportServlet - 	- compress: false 
+10:02:01.352 INFO  t.m.servlet.OfflineCSVExportServlet - 	- temp folder: /var/folders/3h/7jwpt2gd69n0r04xgbt7r9zr0000gn/T 
+10:02:01.352 INFO  t.m.servlet.OfflineCSVExportServlet - 	- redirect path: /export-in-progress/ 
+10:02:02.253 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService offline path: /tmp/twigkit/offline 
+10:02:02.259 DEBUG twigkit.frame.CachedImageIOService - Creating cache from defaults! 
+10:02:02.343 INFO  twigkit.frame.CachedImageIOService - CachedImageIOService offline path: /tmp/twigkit/offline 
+10:02:59.899 DEBUG t.license.LicenseMonitor$ExpiryCheck - Scheduling new license expiry notification with HOURLY frequency 
+10:02:59.905 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+12:43:31.659 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+13:43:31.174 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+14:44:24.770 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+16:11:58.232 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+17:11:57.632 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+18:11:57.026 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+19:11:56.436 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+20:11:55.843 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+21:11:55.241 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+22:11:54.646 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
+23:11:54.056 WARN  twigkit.ApplicationAlertSubscriber - The license for Twigkit expires on: 30 Dec 2020 23:00:00 
